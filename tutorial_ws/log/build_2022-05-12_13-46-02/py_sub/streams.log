@@ -1,0 +1,26 @@
+[1.141s] Invoking command in '/home/eecs/tutorial_ws/src/py_sub': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/eecs/tutorial_ws/build/py_sub/build install --prefix /home/eecs/tutorial_ws/install/py_sub --record /home/eecs/tutorial_ws/build/py_sub/install.log --single-version-externally-managed
+[1.426s] running egg_info
+[1.427s] writing ../../build/py_sub/py_sub.egg-info/PKG-INFO
+[1.427s] writing dependency_links to ../../build/py_sub/py_sub.egg-info/dependency_links.txt
+[1.427s] writing entry points to ../../build/py_sub/py_sub.egg-info/entry_points.txt
+[1.428s] writing requirements to ../../build/py_sub/py_sub.egg-info/requires.txt
+[1.428s] writing top-level names to ../../build/py_sub/py_sub.egg-info/top_level.txt
+[1.470s] reading manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[1.471s] writing manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[1.472s] running build
+[1.472s] running build_py
+[1.472s] running install
+[1.473s] running install_lib
+[1.475s] running install_data
+[1.476s] running install_egg_info
+[1.478s] removing '/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.478s] Copying ../../build/py_sub/py_sub.egg-info to /home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub-0.0.0-py3.8.egg-info
+[1.479s] running install_scripts
+[1.501s] Installing image_aruco_estimator script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+[1.502s] Installing image_aruco_tf2_broadcaster script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+[1.502s] Installing image_listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+[1.502s] Installing image_listener_processor script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+[1.502s] Installing listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+[1.502s] Installing student_listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+[1.503s] writing list of installed files to '/home/eecs/tutorial_ws/build/py_sub/install.log'
+[1.537s] Invoked command in '/home/eecs/tutorial_ws/src/py_sub' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/eecs/tutorial_ws/build/py_sub/build install --prefix /home/eecs/tutorial_ws/install/py_sub --record /home/eecs/tutorial_ws/build/py_sub/install.log --single-version-externally-managed

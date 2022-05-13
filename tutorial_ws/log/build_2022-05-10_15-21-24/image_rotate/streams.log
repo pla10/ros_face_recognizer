@@ -1,0 +1,98 @@
+[0.057s] Invoking command in '/home/eecs/tutorial_ws/build/image_rotate': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_rotate
+[0.370s] -- The C compiler identification is GNU 9.4.0
+[0.685s] -- The CXX compiler identification is GNU 9.4.0
+[0.704s] -- Check for working C compiler: /usr/bin/cc
+[1.098s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.100s] -- Detecting C compiler ABI info
+[1.585s] -- Detecting C compiler ABI info - done
+[1.643s] -- Detecting C compile features
+[1.644s] -- Detecting C compile features - done
+[1.663s] -- Check for working CXX compiler: /usr/bin/c++
+[2.135s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.138s] -- Detecting CXX compiler ABI info
+[2.656s] -- Detecting CXX compiler ABI info - done
+[2.727s] -- Detecting CXX compile features
+[2.729s] -- Detecting CXX compile features - done
+[2.734s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.849s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.849s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.584s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.180s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.327s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.994s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.014s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.017s] -- Looking for pthread.h
+[6.417s] -- Looking for pthread.h - found
+[6.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.847s] -- Looking for pthread_create in pthreads
+[7.204s] -- Looking for pthread_create in pthreads - not found
+[7.205s] -- Looking for pthread_create in pthread
+[7.614s] -- Looking for pthread_create in pthread - found
+[7.617s] -- Found Threads: TRUE  
+[9.275s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[9.291s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[11.266s] -- Found OpenCV: /usr (found version "4.2.0") found components: core imgproc 
+[11.460s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.566s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.574s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.575s] -- Configured cppcheck include dirs: /home/eecs/tutorial_ws/src/image_pipeline/image_rotate/include
+[11.576s] -- Configured cppcheck exclude dirs and/or files: 
+[11.582s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.583s] -- Configured cpplint exclude dirs and/or files: 
+[11.590s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.593s] -- Added test 'lint_cmake' to check CMake code style
+[11.595s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.606s] -- Added test 'uncrustify' to check C / C++ code style
+[11.607s] -- Configured uncrustify additional arguments: 
+[11.608s] -- Added test 'xmllint' to check XML markup files
+[11.630s] -- Configuring done
+[11.986s] -- Generating done
+[11.991s] -- Build files have been written to: /home/eecs/tutorial_ws/build/image_rotate
+[12.027s] Invoked command in '/home/eecs/tutorial_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_rotate
+[12.029s] Invoking command in '/home/eecs/tutorial_ws/build/image_rotate': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_rotate -- -j4 -l4
+[12.238s] [35m[1mScanning dependencies of target image_rotate[0m
+[12.566s] [ 25%] [32mBuilding CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o[0m
+[29.011s] [ 50%] [32m[1mLinking CXX shared library libimage_rotate.so[0m
+[30.689s] [ 50%] Built target image_rotate
+[30.765s] [35m[1mScanning dependencies of target image_rotate_bin[0m
+[31.101s] [ 75%] [32mBuilding CXX object CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o[0m
+[38.389s] [100%] [32m[1mLinking CXX executable image_rotate[0m
+[39.939s] [100%] Built target image_rotate_bin
+[39.984s] Invoked command in '/home/eecs/tutorial_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_rotate -- -j4 -l4
+[40.053s] Invoking command in '/home/eecs/tutorial_ws/build/image_rotate': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_rotate
+[40.083s] -- Install configuration: ""
+[40.083s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/include
+[40.084s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/include/image_rotate
+[40.084s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/include/image_rotate/visibility.h
+[40.084s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/include/image_rotate/image_rotate_node.hpp
+[40.094s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/environment/library_path.sh
+[40.094s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/environment/library_path.dsv
+[40.095s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/lib/libimage_rotate.so
+[40.098s] -- Set runtime path of "/home/eecs/tutorial_ws/install/image_rotate/lib/libimage_rotate.so" to ""
+[40.099s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/lib/image_rotate/image_rotate
+[40.099s] -- Set runtime path of "/home/eecs/tutorial_ws/install/image_rotate/lib/image_rotate/image_rotate" to ""
+[40.100s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/launch
+[40.100s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/launch/image_rotate.launch.py
+[40.100s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/ament_index/resource_index/package_run_dependencies/image_rotate
+[40.101s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/ament_index/resource_index/parent_prefix_path/image_rotate
+[40.101s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.sh
+[40.102s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.dsv
+[40.102s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/environment/path.sh
+[40.103s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/environment/path.dsv
+[40.103s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/local_setup.bash
+[40.103s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/local_setup.sh
+[40.104s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/local_setup.zsh
+[40.106s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/local_setup.dsv
+[40.107s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.dsv
+[40.107s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/ament_index/resource_index/packages/image_rotate
+[40.108s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/ament_index/resource_index/rclcpp_components/image_rotate
+[40.108s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.110s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.111s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_libraries-extras.cmake
+[40.111s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig.cmake
+[40.111s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig-version.cmake
+[40.114s] -- Installing: /home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.xml
+[40.121s] Invoked command in '/home/eecs/tutorial_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_rotate

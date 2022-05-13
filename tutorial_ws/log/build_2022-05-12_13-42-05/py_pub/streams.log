@@ -1,0 +1,24 @@
+[1.695s] Invoking command in '/home/eecs/tutorial_ws/src/py_pub': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed
+[2.064s] running egg_info
+[2.065s] writing ../../build/py_pub/py_pub.egg-info/PKG-INFO
+[2.066s] writing dependency_links to ../../build/py_pub/py_pub.egg-info/dependency_links.txt
+[2.066s] writing entry points to ../../build/py_pub/py_pub.egg-info/entry_points.txt
+[2.066s] writing requirements to ../../build/py_pub/py_pub.egg-info/requires.txt
+[2.067s] writing top-level names to ../../build/py_pub/py_pub.egg-info/top_level.txt
+[2.114s] reading manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[2.115s] writing manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[2.116s] running build
+[2.116s] running build_py
+[2.117s] running install
+[2.118s] running install_lib
+[2.120s] running install_data
+[2.121s] running install_egg_info
+[2.124s] removing '/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[2.124s] Copying ../../build/py_pub/py_pub.egg-info to /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info
+[2.125s] running install_scripts
+[2.147s] Installing image_talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub
+[2.148s] Installing student_talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub
+[2.148s] Installing talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub
+[2.148s] Installing tf2_static_broadcaster script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub
+[2.149s] writing list of installed files to '/home/eecs/tutorial_ws/build/py_pub/install.log'
+[2.178s] Invoked command in '/home/eecs/tutorial_ws/src/py_pub' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed

@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/py_sub/py_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_sub/py_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/py_sub/py_sub.egg-info/entry_points.txt
+writing requirements to ../../build/py_sub/py_sub.egg-info/requires.txt
+writing top-level names to ../../build/py_sub/py_sub.egg-info/top_level.txt
+reading manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_sub/image_subscriber_processing_function.py -> /home/eecs/tutorial_ws/build/py_sub/build/lib/py_sub
+running install
+running install_lib
+copying /home/eecs/tutorial_ws/build/py_sub/build/lib/py_sub/image_subscriber_processing_function.py -> /home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub
+byte-compiling /home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub/image_subscriber_processing_function.py to image_subscriber_processing_function.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/py_sub/py_sub.egg-info to /home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub-0.0.0-py3.8.egg-info
+running install_scripts
+Installing image_aruco_estimator script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+Installing image_aruco_tf2_broadcaster script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+Installing image_listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+Installing image_listener_processor script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+Installing listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+Installing student_listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+writing list of installed files to '/home/eecs/tutorial_ws/build/py_sub/install.log'

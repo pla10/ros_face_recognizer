@@ -1,0 +1,25 @@
+[1.224s] Invoking command in '/home/eecs/tutorial_ws/src/py_sub': PYTHONPATH=/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/eecs/tutorial_ws/build/py_sub/build install --prefix /home/eecs/tutorial_ws/install/py_sub --record /home/eecs/tutorial_ws/build/py_sub/install.log --single-version-externally-managed
+[1.558s] running egg_info
+[1.559s] writing ../../build/py_sub/py_sub.egg-info/PKG-INFO
+[1.560s] writing dependency_links to ../../build/py_sub/py_sub.egg-info/dependency_links.txt
+[1.560s] writing entry points to ../../build/py_sub/py_sub.egg-info/entry_points.txt
+[1.560s] writing requirements to ../../build/py_sub/py_sub.egg-info/requires.txt
+[1.562s] writing top-level names to ../../build/py_sub/py_sub.egg-info/top_level.txt
+[1.614s] reading manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[1.615s] writing manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'
+[1.616s] running build
+[1.617s] running build_py
+[1.617s] copying py_sub/sub.py -> /home/eecs/tutorial_ws/build/py_sub/build/lib/py_sub
+[1.617s] running install
+[1.618s] running install_lib
+[1.619s] copying /home/eecs/tutorial_ws/build/py_sub/build/lib/py_sub/sub.py -> /home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub
+[1.620s] byte-compiling /home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub/sub.py to sub.cpython-38.pyc
+[1.622s] running install_data
+[1.622s] copying package.xml -> /home/eecs/tutorial_ws/install/py_sub/share/py_sub
+[1.623s] running install_egg_info
+[1.625s] removing '/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.626s] Copying ../../build/py_sub/py_sub.egg-info to /home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub-0.0.0-py3.8.egg-info
+[1.627s] running install_scripts
+[1.653s] Installing listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub
+[1.653s] writing list of installed files to '/home/eecs/tutorial_ws/build/py_sub/install.log'
+[1.708s] Invoked command in '/home/eecs/tutorial_ws/src/py_sub' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/eecs/tutorial_ws/build/py_sub/build install --prefix /home/eecs/tutorial_ws/install/py_sub --record /home/eecs/tutorial_ws/build/py_sub/install.log --single-version-externally-managed

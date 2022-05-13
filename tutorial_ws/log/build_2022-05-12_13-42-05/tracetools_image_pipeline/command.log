@@ -1,0 +1,4 @@
+Invoking command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/tracetools_image_pipeline -- -j4 -l4
+Invoked command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/tracetools_image_pipeline -- -j4 -l4
+Invoking command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/tracetools_image_pipeline
+Invoked command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/tracetools_image_pipeline

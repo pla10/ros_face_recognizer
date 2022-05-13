@@ -1,0 +1,22 @@
+[1.664s] Invoking command in '/home/eecs/tutorial_ws/src/r2d2_urdf': PYTHONPATH=/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_urdf build --build-base /home/eecs/tutorial_ws/build/r2d2_urdf/build install --prefix /home/eecs/tutorial_ws/install/r2d2_urdf --record /home/eecs/tutorial_ws/build/r2d2_urdf/install.log --single-version-externally-managed
+[2.084s] running egg_info
+[2.085s] writing ../../build/r2d2_urdf/r2d2_urdf.egg-info/PKG-INFO
+[2.085s] writing dependency_links to ../../build/r2d2_urdf/r2d2_urdf.egg-info/dependency_links.txt
+[2.085s] writing entry points to ../../build/r2d2_urdf/r2d2_urdf.egg-info/entry_points.txt
+[2.086s] writing requirements to ../../build/r2d2_urdf/r2d2_urdf.egg-info/requires.txt
+[2.086s] writing top-level names to ../../build/r2d2_urdf/r2d2_urdf.egg-info/top_level.txt
+[2.129s] reading manifest file '../../build/r2d2_urdf/r2d2_urdf.egg-info/SOURCES.txt'
+[2.130s] writing manifest file '../../build/r2d2_urdf/r2d2_urdf.egg-info/SOURCES.txt'
+[2.130s] running build
+[2.130s] running build_py
+[2.131s] running install
+[2.132s] running install_lib
+[2.134s] running install_data
+[2.135s] copying urdf/r2d2.rviz -> /home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf
+[2.135s] running install_egg_info
+[2.138s] removing '/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages/r2d2_urdf-0.0.0-py3.8.egg-info' (and everything under it)
+[2.138s] Copying ../../build/r2d2_urdf/r2d2_urdf.egg-info to /home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages/r2d2_urdf-0.0.0-py3.8.egg-info
+[2.139s] running install_scripts
+[2.167s] Installing r2d2_state_publisher script to /home/eecs/tutorial_ws/install/r2d2_urdf/lib/r2d2_urdf
+[2.168s] writing list of installed files to '/home/eecs/tutorial_ws/build/r2d2_urdf/install.log'
+[2.208s] Invoked command in '/home/eecs/tutorial_ws/src/r2d2_urdf' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_urdf build --build-base /home/eecs/tutorial_ws/build/r2d2_urdf/build install --prefix /home/eecs/tutorial_ws/install/r2d2_urdf --record /home/eecs/tutorial_ws/build/r2d2_urdf/install.log --single-version-externally-managed

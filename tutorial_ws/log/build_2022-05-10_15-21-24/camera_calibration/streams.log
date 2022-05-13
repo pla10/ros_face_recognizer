@@ -1,0 +1,55 @@
+[1.472s] Invoking command in '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration': PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/eecs/tutorial_ws/build/camera_calibration/build install --prefix /home/eecs/tutorial_ws/install/camera_calibration --record /home/eecs/tutorial_ws/build/camera_calibration/install.log --single-version-externally-managed
+[1.999s] running egg_info
+[2.001s] creating ../../../build/camera_calibration/camera_calibration.egg-info
+[2.001s] writing ../../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[2.001s] writing dependency_links to ../../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[2.002s] writing entry points to ../../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[2.002s] writing requirements to ../../../build/camera_calibration/camera_calibration.egg-info/requires.txt
+[2.002s] writing top-level names to ../../../build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[2.005s] writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[2.088s] reading manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[2.089s] writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[2.090s] running build
+[2.090s] running build_py
+[2.090s] creating /home/eecs/tutorial_ws/build/camera_calibration/build
+[2.090s] creating /home/eecs/tutorial_ws/build/camera_calibration/build/lib
+[2.090s] creating /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration
+[2.091s] copying src/camera_calibration/camera_calibrator.py -> /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration
+[2.091s] copying src/camera_calibration/calibrator.py -> /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration
+[2.091s] copying src/camera_calibration/camera_checker.py -> /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration
+[2.091s] copying src/camera_calibration/__init__.py -> /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration
+[2.091s] creating /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.092s] copying src/camera_calibration/nodes/cameracheck.py -> /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.092s] copying src/camera_calibration/nodes/__init__.py -> /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.092s] copying src/camera_calibration/nodes/cameracalibrator.py -> /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.093s] running install
+[2.094s] running install_lib
+[2.096s] creating /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.097s] copying /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/camera_calibrator.py -> /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.097s] copying /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/calibrator.py -> /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.097s] copying /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/camera_checker.py -> /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.097s] copying /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/__init__.py -> /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration
+[2.098s] creating /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.098s] copying /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/nodes/cameracheck.py -> /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.098s] copying /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/nodes/__init__.py -> /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.099s] copying /home/eecs/tutorial_ws/build/camera_calibration/build/lib/camera_calibration/nodes/cameracalibrator.py -> /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes
+[2.100s] byte-compiling /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/camera_calibrator.py to camera_calibrator.cpython-38.pyc
+[2.108s] byte-compiling /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/calibrator.py to calibrator.cpython-38.pyc
+[2.129s] byte-compiling /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/camera_checker.py to camera_checker.cpython-38.pyc
+[2.133s] byte-compiling /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/__init__.py to __init__.cpython-38.pyc
+[2.133s] byte-compiling /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/cameracheck.py to cameracheck.cpython-38.pyc
+[2.134s] byte-compiling /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/__init__.py to __init__.cpython-38.pyc
+[2.134s] byte-compiling /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration/nodes/cameracalibrator.py to cameracalibrator.cpython-38.pyc
+[2.136s] running install_data
+[2.137s] creating /home/eecs/tutorial_ws/install/camera_calibration/share/ament_index
+[2.137s] creating /home/eecs/tutorial_ws/install/camera_calibration/share/ament_index/resource_index
+[2.138s] creating /home/eecs/tutorial_ws/install/camera_calibration/share/ament_index/resource_index/packages
+[2.138s] copying resource/camera_calibration -> /home/eecs/tutorial_ws/install/camera_calibration/share/ament_index/resource_index/packages
+[2.138s] copying package.xml -> /home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration
+[2.138s] running install_egg_info
+[2.141s] Copying ../../../build/camera_calibration/camera_calibration.egg-info to /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration-2.2.0-py3.8.egg-info
+[2.143s] running install_scripts
+[2.178s] Installing cameracalibrator script to /home/eecs/tutorial_ws/install/camera_calibration/lib/camera_calibration
+[2.178s] Installing cameracheck script to /home/eecs/tutorial_ws/install/camera_calibration/lib/camera_calibration
+[2.179s] writing list of installed files to '/home/eecs/tutorial_ws/build/camera_calibration/install.log'
+[2.230s] Invoked command in '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/eecs/tutorial_ws/build/camera_calibration/build install --prefix /home/eecs/tutorial_ws/install/camera_calibration --record /home/eecs/tutorial_ws/build/camera_calibration/install.log --single-version-externally-managed

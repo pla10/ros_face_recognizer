@@ -1,0 +1,3 @@
+[console_scripts]
+r2d2_state_publisher = r2d2_urdf.r2d2_state_publisher:main
+

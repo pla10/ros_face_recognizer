@@ -1,0 +1,33 @@
+[0.817s] Invoking command in '/home/eecs/tutorial_ws/src/py_pub': PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed
+[1.091s] running egg_info
+[1.092s] creating ../../build/py_pub/py_pub.egg-info
+[1.092s] writing ../../build/py_pub/py_pub.egg-info/PKG-INFO
+[1.093s] writing dependency_links to ../../build/py_pub/py_pub.egg-info/dependency_links.txt
+[1.093s] writing entry points to ../../build/py_pub/py_pub.egg-info/entry_points.txt
+[1.093s] writing requirements to ../../build/py_pub/py_pub.egg-info/requires.txt
+[1.093s] writing top-level names to ../../build/py_pub/py_pub.egg-info/top_level.txt
+[1.095s] writing manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[1.134s] reading manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[1.135s] writing manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[1.135s] running build
+[1.136s] running build_py
+[1.136s] creating /home/eecs/tutorial_ws/build/py_pub/build
+[1.136s] creating /home/eecs/tutorial_ws/build/py_pub/build/lib
+[1.137s] creating /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub
+[1.137s] copying py_pub/__init__.py -> /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub
+[1.137s] running install
+[1.138s] running install_lib
+[1.139s] creating /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub
+[1.139s] copying /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub/__init__.py -> /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub
+[1.140s] byte-compiling /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub/__init__.py to __init__.cpython-38.pyc
+[1.141s] running install_data
+[1.142s] creating /home/eecs/tutorial_ws/install/py_pub/share/ament_index
+[1.143s] creating /home/eecs/tutorial_ws/install/py_pub/share/ament_index/resource_index
+[1.143s] creating /home/eecs/tutorial_ws/install/py_pub/share/ament_index/resource_index/packages
+[1.143s] copying resource/py_pub -> /home/eecs/tutorial_ws/install/py_pub/share/ament_index/resource_index/packages
+[1.143s] copying package.xml -> /home/eecs/tutorial_ws/install/py_pub/share/py_pub
+[1.144s] running install_egg_info
+[1.146s] Copying ../../build/py_pub/py_pub.egg-info to /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info
+[1.147s] running install_scripts
+[1.168s] writing list of installed files to '/home/eecs/tutorial_ws/build/py_pub/install.log'
+[1.197s] Invoked command in '/home/eecs/tutorial_ws/src/py_pub' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed

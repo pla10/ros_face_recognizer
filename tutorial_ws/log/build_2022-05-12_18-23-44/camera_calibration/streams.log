@@ -1,0 +1,22 @@
+[1.461s] Invoking command in '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration': PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/eecs/tutorial_ws/build/camera_calibration/build install --prefix /home/eecs/tutorial_ws/install/camera_calibration --record /home/eecs/tutorial_ws/build/camera_calibration/install.log --single-version-externally-managed
+[1.906s] running egg_info
+[1.907s] writing ../../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[1.907s] writing dependency_links to ../../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[1.908s] writing entry points to ../../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[1.908s] writing requirements to ../../../build/camera_calibration/camera_calibration.egg-info/requires.txt
+[1.908s] writing top-level names to ../../../build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[1.951s] reading manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[1.952s] writing manifest file '../../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[1.952s] running build
+[1.953s] running build_py
+[1.953s] running install
+[1.954s] running install_lib
+[1.956s] running install_data
+[1.957s] running install_egg_info
+[1.959s] removing '/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration-2.2.0-py3.8.egg-info' (and everything under it)
+[1.960s] Copying ../../../build/camera_calibration/camera_calibration.egg-info to /home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages/camera_calibration-2.2.0-py3.8.egg-info
+[1.961s] running install_scripts
+[1.983s] Installing cameracalibrator script to /home/eecs/tutorial_ws/install/camera_calibration/lib/camera_calibration
+[1.983s] Installing cameracheck script to /home/eecs/tutorial_ws/install/camera_calibration/lib/camera_calibration
+[1.984s] writing list of installed files to '/home/eecs/tutorial_ws/build/camera_calibration/install.log'
+[2.048s] Invoked command in '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/eecs/tutorial_ws/build/camera_calibration/build install --prefix /home/eecs/tutorial_ws/install/camera_calibration --record /home/eecs/tutorial_ws/build/camera_calibration/install.log --single-version-externally-managed

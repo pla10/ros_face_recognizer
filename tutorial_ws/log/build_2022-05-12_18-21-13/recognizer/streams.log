@@ -1,0 +1,38 @@
+[1.704s] Invoking command in '/home/eecs/tutorial_ws/src/recognizer': PYTHONPATH=/home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/recognizer build --build-base /home/eecs/tutorial_ws/build/recognizer/build install --prefix /home/eecs/tutorial_ws/install/recognizer --record /home/eecs/tutorial_ws/build/recognizer/install.log --single-version-externally-managed
+[2.241s] running egg_info
+[2.242s] creating ../../build/recognizer/recognizer.egg-info
+[2.242s] writing ../../build/recognizer/recognizer.egg-info/PKG-INFO
+[2.243s] writing dependency_links to ../../build/recognizer/recognizer.egg-info/dependency_links.txt
+[2.243s] writing entry points to ../../build/recognizer/recognizer.egg-info/entry_points.txt
+[2.243s] writing requirements to ../../build/recognizer/recognizer.egg-info/requires.txt
+[2.244s] writing top-level names to ../../build/recognizer/recognizer.egg-info/top_level.txt
+[2.246s] writing manifest file '../../build/recognizer/recognizer.egg-info/SOURCES.txt'
+[2.319s] reading manifest file '../../build/recognizer/recognizer.egg-info/SOURCES.txt'
+[2.321s] writing manifest file '../../build/recognizer/recognizer.egg-info/SOURCES.txt'
+[2.321s] running build
+[2.321s] running build_py
+[2.321s] creating /home/eecs/tutorial_ws/build/recognizer/build
+[2.322s] creating /home/eecs/tutorial_ws/build/recognizer/build/lib
+[2.322s] creating /home/eecs/tutorial_ws/build/recognizer/build/lib/recognizer
+[2.322s] copying recognizer/inference.py -> /home/eecs/tutorial_ws/build/recognizer/build/lib/recognizer
+[2.322s] copying recognizer/__init__.py -> /home/eecs/tutorial_ws/build/recognizer/build/lib/recognizer
+[2.322s] running install
+[2.323s] running install_lib
+[2.325s] creating /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer
+[2.325s] copying /home/eecs/tutorial_ws/build/recognizer/build/lib/recognizer/inference.py -> /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer
+[2.325s] copying /home/eecs/tutorial_ws/build/recognizer/build/lib/recognizer/__init__.py -> /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer
+[2.326s] byte-compiling /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer/inference.py to inference.cpython-38.pyc
+[2.329s] Sorry: IndentationError: unindent does not match any outer indentation level (inference.py, line 39)
+[2.330s] byte-compiling /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer/__init__.py to __init__.cpython-38.pyc
+[2.330s] running install_data
+[2.330s] creating /home/eecs/tutorial_ws/install/recognizer/share/ament_index
+[2.331s] creating /home/eecs/tutorial_ws/install/recognizer/share/ament_index/resource_index
+[2.331s] creating /home/eecs/tutorial_ws/install/recognizer/share/ament_index/resource_index/packages
+[2.331s] copying resource/recognizer -> /home/eecs/tutorial_ws/install/recognizer/share/ament_index/resource_index/packages
+[2.331s] copying package.xml -> /home/eecs/tutorial_ws/install/recognizer/share/recognizer
+[2.331s] running install_egg_info
+[2.334s] Copying ../../build/recognizer/recognizer.egg-info to /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer-0.0.0-py3.8.egg-info
+[2.335s] running install_scripts
+[2.370s] Installing recognizer script to /home/eecs/tutorial_ws/install/recognizer/lib/recognizer
+[2.370s] writing list of installed files to '/home/eecs/tutorial_ws/build/recognizer/install.log'
+[2.413s] Invoked command in '/home/eecs/tutorial_ws/src/recognizer' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/recognizer build --build-base /home/eecs/tutorial_ws/build/recognizer/build install --prefix /home/eecs/tutorial_ws/install/recognizer --record /home/eecs/tutorial_ws/build/recognizer/install.log --single-version-externally-managed

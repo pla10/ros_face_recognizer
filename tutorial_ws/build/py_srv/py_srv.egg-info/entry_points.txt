@@ -1,0 +1,3 @@
+[console_scripts]
+service = py_srv.service_member_function:main
+

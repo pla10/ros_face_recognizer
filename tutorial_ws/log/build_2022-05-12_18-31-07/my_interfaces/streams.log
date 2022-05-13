@@ -1,0 +1,113 @@
+[0.048s] Invoking command in '/home/eecs/tutorial_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eecs/tutorial_ws/install/r2d2_urdf:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_srv:/home/eecs/tutorial_ws/install/py_pub:/home/eecs/tutorial_ws/install/py_cli:/home/eecs/tutorial_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/my_interfaces -- -j4 -l4
+[0.480s] [  3%] Built target my_interfaces__cpp
+[0.482s] [ 12%] Built target my_interfaces__rosidl_generator_c
+[0.482s] [ 22%] Built target my_interfaces__rosidl_typesupport_cpp
+[0.482s] [ 32%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[0.483s] [ 41%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[0.483s] [ 51%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.483s] [ 61%] Built target my_interfaces__rosidl_typesupport_c
+[0.484s] [ 70%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[0.484s] [ 70%] Built target my_interfaces
+[0.486s] [ 74%] Built target my_interfaces__py
+[0.487s] [ 80%] Built target my_interfaces__python
+[0.487s] [ 93%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.488s] [ 93%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[0.489s] [100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.495s] Invoked command in '/home/eecs/tutorial_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eecs/tutorial_ws/install/r2d2_urdf:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_srv:/home/eecs/tutorial_ws/install/py_pub:/home/eecs/tutorial_ws/install/py_cli:/home/eecs/tutorial_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/my_interfaces -- -j4 -l4
+[0.638s] Invoking command in '/home/eecs/tutorial_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eecs/tutorial_ws/install/r2d2_urdf:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_srv:/home/eecs/tutorial_ws/install/py_pub:/home/eecs/tutorial_ws/install/py_cli:/home/eecs/tutorial_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/my_interfaces
+[0.660s] -- Install configuration: ""
+[0.660s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[0.661s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces
+[0.661s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg
+[0.661s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail
+[0.662s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__functions.c
+[0.662s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__type_support.h
+[0.663s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__struct.h
+[0.663s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__functions.h
+[0.663s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.664s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/student.h
+[0.664s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[0.665s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[0.666s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[0.667s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces
+[0.667s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg
+[0.667s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.668s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail
+[0.668s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[0.669s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.670s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces
+[0.671s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg
+[0.671s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail
+[0.671s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/dds_fastrtps
+[0.672s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[0.672s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.673s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.674s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces
+[0.674s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg
+[0.675s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.676s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail
+[0.676s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__type_support.c
+[0.676s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__rosidl_typesupport_introspection_c.h
+[0.677s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[0.679s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[0.679s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces
+[0.680s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg
+[0.680s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/student.hpp
+[0.680s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail
+[0.680s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__traits.hpp
+[0.680s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__struct.hpp
+[0.681s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__builder.hpp
+[0.681s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces
+[0.681s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg
+[0.681s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail
+[0.681s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[0.681s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/include/my_interfaces/msg/detail/student__type_support.cpp
+[0.682s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.682s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[0.682s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[0.682s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[0.683s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/__init__.py
+[0.766s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg
+[0.766s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_student.py
+[0.766s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/_student_s.c
+[0.766s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/msg/__init__.py
+[0.766s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.766s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.766s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.767s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/lib/libmy_interfaces__python.so
+[0.767s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/msg/Student.idl
+[0.768s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/msg/Student.msg
+[0.768s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[0.768s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[0.768s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[0.768s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[0.769s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/environment/path.sh
+[0.769s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[0.769s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/local_setup.bash
+[0.769s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/local_setup.sh
+[0.769s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[0.769s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[0.770s] -- Installing: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.dsv
+[0.770s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[0.770s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport.cmake
+[0.770s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.771s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.771s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.771s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[0.771s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.771s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_generator_cppExport.cmake
+[0.772s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.772s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.772s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[0.772s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.773s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.773s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.773s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.773s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.773s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.773s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.773s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.773s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[0.774s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[0.774s] -- Up-to-date: /home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.xml
+[0.782s] Invoked command in '/home/eecs/tutorial_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eecs/tutorial_ws/install/r2d2_urdf:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_srv:/home/eecs/tutorial_ws/install/py_pub:/home/eecs/tutorial_ws/install/py_cli:/home/eecs/tutorial_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/my_interfaces

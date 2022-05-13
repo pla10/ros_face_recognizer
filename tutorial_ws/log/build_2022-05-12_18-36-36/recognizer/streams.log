@@ -1,0 +1,24 @@
+[2.195s] Invoking command in '/home/eecs/tutorial_ws/src/recognizer': PYTHONPATH=/home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/recognizer build --build-base /home/eecs/tutorial_ws/build/recognizer/build install --prefix /home/eecs/tutorial_ws/install/recognizer --record /home/eecs/tutorial_ws/build/recognizer/install.log --single-version-externally-managed
+[2.711s] running egg_info
+[2.712s] writing ../../build/recognizer/recognizer.egg-info/PKG-INFO
+[2.713s] writing dependency_links to ../../build/recognizer/recognizer.egg-info/dependency_links.txt
+[2.713s] writing entry points to ../../build/recognizer/recognizer.egg-info/entry_points.txt
+[2.713s] writing requirements to ../../build/recognizer/recognizer.egg-info/requires.txt
+[2.713s] writing top-level names to ../../build/recognizer/recognizer.egg-info/top_level.txt
+[2.786s] reading manifest file '../../build/recognizer/recognizer.egg-info/SOURCES.txt'
+[2.787s] writing manifest file '../../build/recognizer/recognizer.egg-info/SOURCES.txt'
+[2.788s] running build
+[2.788s] running build_py
+[2.788s] copying recognizer/inference.py -> /home/eecs/tutorial_ws/build/recognizer/build/lib/recognizer
+[2.789s] running install
+[2.790s] running install_lib
+[2.791s] copying /home/eecs/tutorial_ws/build/recognizer/build/lib/recognizer/inference.py -> /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer
+[2.793s] byte-compiling /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer/inference.py to inference.cpython-38.pyc
+[2.796s] running install_data
+[2.798s] running install_egg_info
+[2.801s] removing '/home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer-0.0.0-py3.8.egg-info' (and everything under it)
+[2.801s] Copying ../../build/recognizer/recognizer.egg-info to /home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages/recognizer-0.0.0-py3.8.egg-info
+[2.802s] running install_scripts
+[2.836s] Installing recognizer script to /home/eecs/tutorial_ws/install/recognizer/lib/recognizer
+[2.836s] writing list of installed files to '/home/eecs/tutorial_ws/build/recognizer/install.log'
+[2.905s] Invoked command in '/home/eecs/tutorial_ws/src/recognizer' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/recognizer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/recognizer build --build-base /home/eecs/tutorial_ws/build/recognizer/build install --prefix /home/eecs/tutorial_ws/install/recognizer --record /home/eecs/tutorial_ws/build/recognizer/install.log --single-version-externally-managed

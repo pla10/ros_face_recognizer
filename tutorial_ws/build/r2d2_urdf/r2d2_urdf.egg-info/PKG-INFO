@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: r2d2-urdf
+Version: 0.0.0
+Summary: Example of the robot state publisher using rclpy
+Home-page: UNKNOWN
+Maintainer-email: ywang@fbk.eu
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

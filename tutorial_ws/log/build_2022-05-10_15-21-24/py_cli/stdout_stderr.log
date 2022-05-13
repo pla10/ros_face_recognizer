@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py_cli/py_cli.egg-info
+writing ../../build/py_cli/py_cli.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_cli/py_cli.egg-info/dependency_links.txt
+writing entry points to ../../build/py_cli/py_cli.egg-info/entry_points.txt
+writing requirements to ../../build/py_cli/py_cli.egg-info/requires.txt
+writing top-level names to ../../build/py_cli/py_cli.egg-info/top_level.txt
+writing manifest file '../../build/py_cli/py_cli.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_cli/py_cli.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_cli/py_cli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eecs/tutorial_ws/build/py_cli/build
+creating /home/eecs/tutorial_ws/build/py_cli/build/lib
+creating /home/eecs/tutorial_ws/build/py_cli/build/lib/py_cli
+copying py_cli/client_member_function.py -> /home/eecs/tutorial_ws/build/py_cli/build/lib/py_cli
+copying py_cli/__init__.py -> /home/eecs/tutorial_ws/build/py_cli/build/lib/py_cli
+running install
+running install_lib
+creating /home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages/py_cli
+copying /home/eecs/tutorial_ws/build/py_cli/build/lib/py_cli/client_member_function.py -> /home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages/py_cli
+copying /home/eecs/tutorial_ws/build/py_cli/build/lib/py_cli/__init__.py -> /home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages/py_cli
+byte-compiling /home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages/py_cli/client_member_function.py to client_member_function.cpython-38.pyc
+byte-compiling /home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages/py_cli/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/eecs/tutorial_ws/install/py_cli/share/ament_index
+creating /home/eecs/tutorial_ws/install/py_cli/share/ament_index/resource_index
+creating /home/eecs/tutorial_ws/install/py_cli/share/ament_index/resource_index/packages
+copying resource/py_cli -> /home/eecs/tutorial_ws/install/py_cli/share/ament_index/resource_index/packages
+copying package.xml -> /home/eecs/tutorial_ws/install/py_cli/share/py_cli
+running install_egg_info
+Copying ../../build/py_cli/py_cli.egg-info to /home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages/py_cli-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/eecs/tutorial_ws/install/py_cli/lib/py_cli
+writing list of installed files to '/home/eecs/tutorial_ws/build/py_cli/install.log'

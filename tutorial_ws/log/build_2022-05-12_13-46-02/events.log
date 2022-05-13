@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000334] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000434] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000730] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000909] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.001310] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.001376] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001432] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001471] (-) JobUnselected: {'identifier': 'my_interfaces'}
+[0.001504] (-) JobUnselected: {'identifier': 'py_cli'}
+[0.002317] (-) JobUnselected: {'identifier': 'py_srv'}
+[0.002686] (-) JobUnselected: {'identifier': 'r2d2_urdf'}
+[0.002731] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.002786] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.002932] (py_pub) JobQueued: {'identifier': 'py_pub', 'dependencies': OrderedDict([('my_interfaces', '/home/eecs/tutorial_ws/install/my_interfaces')])}
+[0.002983] (py_sub) JobQueued: {'identifier': 'py_sub', 'dependencies': OrderedDict([('my_interfaces', '/home/eecs/tutorial_ws/install/my_interfaces')])}
+[0.003028] (py_pub) JobStarted: {'identifier': 'py_pub'}
+[0.015424] (py_sub) JobStarted: {'identifier': 'py_sub'}
+[0.099691] (-) TimerEvent: {}
+[0.200114] (-) TimerEvent: {}
+[0.300430] (-) TimerEvent: {}
+[0.400893] (-) TimerEvent: {}
+[0.501331] (-) TimerEvent: {}
+[0.601619] (-) TimerEvent: {}
+[0.702065] (-) TimerEvent: {}
+[0.802648] (-) TimerEvent: {}
+[0.902998] (-) TimerEvent: {}
+[1.003397] (-) TimerEvent: {}
+[1.103750] (-) TimerEvent: {}
+[1.154360] (py_sub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_sub', 'build', '--build-base', '/home/eecs/tutorial_ws/build/py_sub/build', 'install', '--prefix', '/home/eecs/tutorial_ws/install/py_sub', '--record', '/home/eecs/tutorial_ws/build/py_sub/install.log', '--single-version-externally-managed'], 'cwd': '/home/eecs/tutorial_ws/src/py_sub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'eecs', 'LC_TIME': 'it_IT.UTF-8', 'SSH_AGENT_PID': '1579', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/eecs/tutorial_ws/install/my_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/eecs', 'OLDPWD': '/home/eecs/tutorial_ws/launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'eecs', 'JOURNAL_STREAM': '8:47434', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eecs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/eecs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/eecs-HP-EliteBook-820-G3:@/tmp/.ICE-unix/1618,unix/eecs-HP-EliteBook-820-G3:/tmp/.ICE-unix/1618', 'INVOCATION_ID': '1bf56088a1ac4e27866d02c79862ad9e', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5852d409_1172_4e66_bbde_c7d7554d401f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/eecs/tutorial_ws/install/my_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eecs/tutorial_ws/build/py_sub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/eecs/tutorial_ws/install/my_interfaces'}, 'shell': False}
+[1.167872] (py_pub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pub', 'build', '--build-base', '/home/eecs/tutorial_ws/build/py_pub/build', 'install', '--prefix', '/home/eecs/tutorial_ws/install/py_pub', '--record', '/home/eecs/tutorial_ws/build/py_pub/install.log', '--single-version-externally-managed'], 'cwd': '/home/eecs/tutorial_ws/src/py_pub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'eecs', 'LC_TIME': 'it_IT.UTF-8', 'SSH_AGENT_PID': '1579', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/eecs/tutorial_ws/install/my_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/eecs', 'OLDPWD': '/home/eecs/tutorial_ws/launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1399', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'eecs', 'JOURNAL_STREAM': '8:47434', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eecs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/eecs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/eecs-HP-EliteBook-820-G3:@/tmp/.ICE-unix/1618,unix/eecs-HP-EliteBook-820-G3:/tmp/.ICE-unix/1618', 'INVOCATION_ID': '1bf56088a1ac4e27866d02c79862ad9e', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5852d409_1172_4e66_bbde_c7d7554d401f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/eecs/tutorial_ws/install/my_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eecs/tutorial_ws/build/py_pub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/eecs/tutorial_ws/install/my_interfaces'}, 'shell': False}
+[1.203904] (-) TimerEvent: {}
+[1.304319] (-) TimerEvent: {}
+[1.404670] (-) TimerEvent: {}
+[1.441423] (py_sub) StdoutLine: {'line': b'running egg_info\n'}
+[1.442268] (py_sub) StdoutLine: {'line': b'writing ../../build/py_sub/py_sub.egg-info/PKG-INFO\n'}
+[1.442589] (py_sub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_sub/py_sub.egg-info/dependency_links.txt\n'}
+[1.443142] (py_sub) StdoutLine: {'line': b'writing entry points to ../../build/py_sub/py_sub.egg-info/entry_points.txt\n'}
+[1.443435] (py_sub) StdoutLine: {'line': b'writing requirements to ../../build/py_sub/py_sub.egg-info/requires.txt\n'}
+[1.443666] (py_sub) StdoutLine: {'line': b'writing top-level names to ../../build/py_sub/py_sub.egg-info/top_level.txt\n'}
+[1.454176] (py_pub) StdoutLine: {'line': b'running egg_info\n'}
+[1.455071] (py_pub) StdoutLine: {'line': b'writing ../../build/py_pub/py_pub.egg-info/PKG-INFO\n'}
+[1.455435] (py_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pub/py_pub.egg-info/dependency_links.txt\n'}
+[1.455966] (py_pub) StdoutLine: {'line': b'writing entry points to ../../build/py_pub/py_pub.egg-info/entry_points.txt\n'}
+[1.456222] (py_pub) StdoutLine: {'line': b'writing requirements to ../../build/py_pub/py_pub.egg-info/requires.txt\n'}
+[1.456431] (py_pub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pub/py_pub.egg-info/top_level.txt\n'}
+[1.485888] (py_sub) StdoutLine: {'line': b"reading manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'\n"}
+[1.486907] (py_sub) StdoutLine: {'line': b"writing manifest file '../../build/py_sub/py_sub.egg-info/SOURCES.txt'\n"}
+[1.487177] (py_sub) StdoutLine: {'line': b'running build\n'}
+[1.487388] (py_sub) StdoutLine: {'line': b'running build_py\n'}
+[1.487773] (py_sub) StdoutLine: {'line': b'running install\n'}
+[1.488810] (py_sub) StdoutLine: {'line': b'running install_lib\n'}
+[1.490757] (py_sub) StdoutLine: {'line': b'running install_data\n'}
+[1.491446] (py_sub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.493496] (py_sub) StdoutLine: {'line': b"removing '/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.493896] (py_sub) StdoutLine: {'line': b'Copying ../../build/py_sub/py_sub.egg-info to /home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages/py_sub-0.0.0-py3.8.egg-info\n'}
+[1.494890] (py_sub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.499406] (py_pub) StdoutLine: {'line': b"reading manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'\n"}
+[1.500543] (py_pub) StdoutLine: {'line': b"writing manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'\n"}
+[1.500846] (py_pub) StdoutLine: {'line': b'running build\n'}
+[1.501003] (py_pub) StdoutLine: {'line': b'running build_py\n'}
+[1.501251] (py_pub) StdoutLine: {'line': b'running install\n'}
+[1.502306] (py_pub) StdoutLine: {'line': b'running install_lib\n'}
+[1.504337] (py_pub) StdoutLine: {'line': b'running install_data\n'}
+[1.504754] (-) TimerEvent: {}
+[1.505152] (py_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.507318] (py_pub) StdoutLine: {'line': b"removing '/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.507761] (py_pub) StdoutLine: {'line': b'Copying ../../build/py_pub/py_pub.egg-info to /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info\n'}
+[1.508774] (py_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.516891] (py_sub) StdoutLine: {'line': b'Installing image_aruco_estimator script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub\n'}
+[1.517232] (py_sub) StdoutLine: {'line': b'Installing image_aruco_tf2_broadcaster script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub\n'}
+[1.517446] (py_sub) StdoutLine: {'line': b'Installing image_listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub\n'}
+[1.517661] (py_sub) StdoutLine: {'line': b'Installing image_listener_processor script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub\n'}
+[1.518013] (py_sub) StdoutLine: {'line': b'Installing listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub\n'}
+[1.518164] (py_sub) StdoutLine: {'line': b'Installing student_listener script to /home/eecs/tutorial_ws/install/py_sub/lib/py_sub\n'}
+[1.518348] (py_sub) StdoutLine: {'line': b"writing list of installed files to '/home/eecs/tutorial_ws/build/py_sub/install.log'\n"}
+[1.531829] (py_pub) StdoutLine: {'line': b'Installing image_talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub\n'}
+[1.532195] (py_pub) StdoutLine: {'line': b'Installing student_talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub\n'}
+[1.532484] (py_pub) StdoutLine: {'line': b'Installing talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub\n'}
+[1.532725] (py_pub) StdoutLine: {'line': b'Installing tf2_static_broadcaster script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub\n'}
+[1.533314] (py_pub) StdoutLine: {'line': b"writing list of installed files to '/home/eecs/tutorial_ws/build/py_pub/install.log'\n"}
+[1.552189] (py_sub) CommandEnded: {'returncode': 0}
+[1.571299] (py_sub) JobEnded: {'identifier': 'py_sub', 'rc': 0}
+[1.573815] (py_pub) CommandEnded: {'returncode': 0}
+[1.581277] (py_pub) JobEnded: {'identifier': 'py_pub', 'rc': 0}
+[1.582183] (-) EventReactorShutdown: {}

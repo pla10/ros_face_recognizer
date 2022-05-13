@@ -1,0 +1,125 @@
+[0.451s] Invoking command in '/home/eecs/tutorial_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/depth_image_proc
+[0.569s] -- The C compiler identification is GNU 9.4.0
+[0.692s] -- The CXX compiler identification is GNU 9.4.0
+[0.703s] -- Check for working C compiler: /usr/bin/cc
+[0.848s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.851s] -- Detecting C compiler ABI info
+[0.996s] -- Detecting C compiler ABI info - done
+[1.028s] -- Detecting C compile features
+[1.029s] -- Detecting C compile features - done
+[1.035s] -- Check for working CXX compiler: /usr/bin/c++
+[1.204s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.207s] -- Detecting CXX compiler ABI info
+[1.380s] -- Detecting CXX compiler ABI info - done
+[1.415s] -- Detecting CXX compile features
+[1.417s] -- Detecting CXX compile features - done
+[1.423s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.485s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.486s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.566s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.758s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.835s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.187s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.195s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.199s] -- Looking for pthread.h
+[3.363s] -- Looking for pthread.h - found
+[3.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.530s] -- Looking for pthread_create in pthreads
+[3.653s] -- Looking for pthread_create in pthreads - not found
+[3.654s] -- Looking for pthread_create in pthread
+[3.804s] -- Looking for pthread_create in pthread - found
+[3.808s] -- Found Threads: TRUE  
+[7.555s] -- Found OpenCV: /usr (found version "4.2.0") 
+[7.666s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.717s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.722s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.723s] -- Configured cppcheck include dirs: /home/eecs/tutorial_ws/src/image_pipeline/depth_image_proc/include
+[7.723s] -- Configured cppcheck exclude dirs and/or files: 
+[7.728s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.728s] -- Configured cpplint exclude dirs and/or files: 
+[7.730s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.732s] -- Added test 'lint_cmake' to check CMake code style
+[7.733s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.738s] -- Added test 'uncrustify' to check C / C++ code style
+[7.738s] -- Configured uncrustify additional arguments: 
+[7.740s] -- Added test 'xmllint' to check XML markup files
+[7.753s] -- Configuring done
+[7.896s] -- Generating done
+[7.900s] -- Build files have been written to: /home/eecs/tutorial_ws/build/depth_image_proc
+[7.925s] Invoked command in '/home/eecs/tutorial_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/depth_image_proc
+[7.927s] Invoking command in '/home/eecs/tutorial_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/depth_image_proc -- -j4 -l4
+[8.020s] [35m[1mScanning dependencies of target depth_image_proc[0m
+[8.638s] [  8%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/conversions.cpp.o[0m
+[8.648s] [ 16%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/convert_metric.cpp.o[0m
+[8.669s] [ 25%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/crop_foremost.cpp.o[0m
+[8.677s] [ 33%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/disparity.cpp.o[0m
+[11.471s] [ 41%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz.cpp.o[0m
+[16.877s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb.cpp.o[0m
+[20.454s] [ 58%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi.cpp.o[0m
+[24.899s] [ 66%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz_radial.cpp.o[0m
+[41.890s] [ 75%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi_radial.cpp.o[0m
+[42.558s] [ 83%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb_radial.cpp.o[0m
+[70.700s] [ 91%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/register.cpp.o[0m
+[89.636s] [100%] [32m[1mLinking CXX shared library libdepth_image_proc.so[0m
+[93.349s] [100%] Built target depth_image_proc
+[93.371s] Invoked command in '/home/eecs/tutorial_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/depth_image_proc -- -j4 -l4
+[93.452s] Invoking command in '/home/eecs/tutorial_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/depth_image_proc
+[93.469s] -- Install configuration: ""
+[93.470s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include
+[93.471s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc
+[93.471s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/visibility.h
+[93.471s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb.hpp
+[93.471s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz_radial.hpp
+[93.472s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/depth_traits.hpp
+[93.472s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz.hpp
+[93.472s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi_radial.hpp
+[93.472s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi.hpp
+[93.472s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/conversions.hpp
+[93.472s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb_radial.hpp
+[93.473s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.sh
+[93.473s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.dsv
+[93.473s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/lib/libdepth_image_proc.so
+[93.489s] -- Set runtime path of "/home/eecs/tutorial_ws/install/depth_image_proc/lib/libdepth_image_proc.so" to ""
+[93.490s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch
+[93.490s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi.launch.py
+[93.490s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz_radial.launch.py
+[93.490s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz.launch.py
+[93.491s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz
+[93.491s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz_radial.rviz
+[93.491s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/crop_formost.rviz
+[93.491s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz.rviz
+[93.492s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/convert_metric.rviz
+[93.492s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzrgb.rviz
+[93.493s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/disparity.rviz
+[93.494s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/register.rviz
+[93.494s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzi.rviz
+[93.494s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/register.launch.py
+[93.494s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi_radial.launch.py
+[93.495s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb_radial.launch.py
+[93.495s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb.launch.py
+[93.495s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/disparity.launch.py
+[93.495s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/convert_metric.launch.py
+[93.495s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/launch/crop_foremost.launch.py
+[93.496s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/ament_index/resource_index/package_run_dependencies/depth_image_proc
+[93.497s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/ament_index/resource_index/parent_prefix_path/depth_image_proc
+[93.497s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.sh
+[93.497s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.dsv
+[93.498s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/environment/path.sh
+[93.498s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/environment/path.dsv
+[93.499s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/local_setup.bash
+[93.499s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/local_setup.sh
+[93.499s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/local_setup.zsh
+[93.500s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/local_setup.dsv
+[93.500s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.dsv
+[93.500s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/ament_index/resource_index/packages/depth_image_proc
+[93.501s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/ament_index/resource_index/rclcpp_components/depth_image_proc
+[93.501s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[93.502s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[93.502s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[93.503s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig.cmake
+[93.503s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig-version.cmake
+[93.503s] -- Installing: /home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.xml
+[93.510s] Invoked command in '/home/eecs/tutorial_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/depth_image_proc

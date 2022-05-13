@@ -1,0 +1,20 @@
+[1.214s] Invoking command in '/home/eecs/tutorial_ws/src/py_pub': PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed
+[1.532s] running egg_info
+[1.533s] writing ../../build/py_pub/py_pub.egg-info/PKG-INFO
+[1.533s] writing dependency_links to ../../build/py_pub/py_pub.egg-info/dependency_links.txt
+[1.534s] writing entry points to ../../build/py_pub/py_pub.egg-info/entry_points.txt
+[1.534s] writing requirements to ../../build/py_pub/py_pub.egg-info/requires.txt
+[1.534s] writing top-level names to ../../build/py_pub/py_pub.egg-info/top_level.txt
+[1.584s] reading manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[1.585s] writing manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[1.585s] running build
+[1.585s] running build_py
+[1.585s] running install
+[1.586s] running install_lib
+[1.588s] running install_data
+[1.589s] running install_egg_info
+[1.591s] removing '/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.592s] Copying ../../build/py_pub/py_pub.egg-info to /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info
+[1.593s] running install_scripts
+[1.619s] writing list of installed files to '/home/eecs/tutorial_ws/build/py_pub/install.log'
+[1.653s] Invoked command in '/home/eecs/tutorial_ws/src/py_pub' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed

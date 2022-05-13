@@ -1,0 +1,48 @@
+[0.053s] Invoking command in '/home/eecs/tutorial_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eecs/tutorial_ws/install/r2d2_urdf:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_srv:/home/eecs/tutorial_ws/install/py_pub:/home/eecs/tutorial_ws/install/py_cli:/home/eecs/tutorial_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_view -- -j4 -l4
+[0.227s] [ 36%] Built target image_view_nodes
+[0.332s] [ 47%] Built target extract_images
+[0.334s] [ 57%] Built target stereo_view
+[0.356s] [ 68%] Built target disparity_view
+[0.374s] [ 78%] Built target image_view
+[0.405s] [ 89%] Built target image_saver
+[0.441s] [100%] Built target video_recorder
+[0.710s] Invoked command in '/home/eecs/tutorial_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eecs/tutorial_ws/install/r2d2_urdf:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_srv:/home/eecs/tutorial_ws/install/py_pub:/home/eecs/tutorial_ws/install/py_cli:/home/eecs/tutorial_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_view -- -j4 -l4
+[1.183s] Invoking command in '/home/eecs/tutorial_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eecs/tutorial_ws/install/r2d2_urdf:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_srv:/home/eecs/tutorial_ws/install/py_pub:/home/eecs/tutorial_ws/install/py_cli:/home/eecs/tutorial_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_view
+[1.201s] -- Install configuration: ""
+[1.201s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/include
+[1.201s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/include/image_view
+[1.201s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/include/image_view/disparity_view_node.hpp
+[1.202s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/include/image_view/video_recorder_node.hpp
+[1.202s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/include/image_view/image_saver_node.hpp
+[1.202s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/include/image_view/image_view_node.hpp
+[1.202s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/include/image_view/stereo_view_node.hpp
+[1.202s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/include/image_view/extract_images_node.hpp
+[1.202s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/environment/library_path.sh
+[1.202s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/environment/library_path.dsv
+[1.203s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/lib/libimage_view_nodes.so
+[1.203s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/lib/image_view/disparity_view
+[1.204s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/lib/image_view/image_view
+[1.204s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/lib/image_view/stereo_view
+[1.205s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/lib/image_view/extract_images
+[1.206s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/lib/image_view/image_saver
+[1.206s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/lib/image_view/video_recorder
+[1.207s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/ament_index/resource_index/package_run_dependencies/image_view
+[1.207s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/ament_index/resource_index/parent_prefix_path/image_view
+[1.207s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/environment/ament_prefix_path.sh
+[1.208s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/environment/ament_prefix_path.dsv
+[1.208s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/environment/path.sh
+[1.208s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/environment/path.dsv
+[1.208s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/local_setup.bash
+[1.209s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/local_setup.sh
+[1.209s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/local_setup.zsh
+[1.209s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/local_setup.dsv
+[1.209s] -- Installing: /home/eecs/tutorial_ws/install/image_view/share/image_view/package.dsv
+[1.209s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/ament_index/resource_index/packages/image_view
+[1.209s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/ament_index/resource_index/rclcpp_components/image_view
+[1.210s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.210s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.210s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/cmake/ament_cmake_export_libraries-extras.cmake
+[1.210s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/cmake/image_viewConfig.cmake
+[1.210s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/cmake/image_viewConfig-version.cmake
+[1.210s] -- Up-to-date: /home/eecs/tutorial_ws/install/image_view/share/image_view/package.xml
+[1.214s] Invoked command in '/home/eecs/tutorial_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eecs/tutorial_ws/install/r2d2_urdf:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_srv:/home/eecs/tutorial_ws/install/py_pub:/home/eecs/tutorial_ws/install/py_cli:/home/eecs/tutorial_ws/install/camera_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_view

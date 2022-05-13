@@ -1,0 +1,4 @@
+Invoking command in '/home/eecs/tutorial_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_view -- -j4 -l4
+Invoked command in '/home/eecs/tutorial_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_view -- -j4 -l4
+Invoking command in '/home/eecs/tutorial_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_view
+Invoked command in '/home/eecs/tutorial_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_view

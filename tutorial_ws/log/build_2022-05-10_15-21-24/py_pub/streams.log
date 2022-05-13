@@ -1,0 +1,36 @@
+[1.764s] Invoking command in '/home/eecs/tutorial_ws/src/py_pub': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed
+[2.338s] running egg_info
+[2.340s] writing ../../build/py_pub/py_pub.egg-info/PKG-INFO
+[2.341s] writing dependency_links to ../../build/py_pub/py_pub.egg-info/dependency_links.txt
+[2.342s] writing entry points to ../../build/py_pub/py_pub.egg-info/entry_points.txt
+[2.343s] writing requirements to ../../build/py_pub/py_pub.egg-info/requires.txt
+[2.344s] writing top-level names to ../../build/py_pub/py_pub.egg-info/top_level.txt
+[2.432s] reading manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[2.434s] writing manifest file '../../build/py_pub/py_pub.egg-info/SOURCES.txt'
+[2.435s] running build
+[2.435s] running build_py
+[2.436s] copying py_pub/publisher_member_function.py -> /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub
+[2.437s] copying py_pub/student_publisher_function.py -> /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub
+[2.438s] copying py_pub/publisher_tf2_static_broadcaster_function.py -> /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub
+[2.439s] copying py_pub/image_publisher_function.py -> /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub
+[2.440s] running install
+[2.442s] running install_lib
+[2.445s] copying /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub/publisher_member_function.py -> /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub
+[2.446s] copying /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub/student_publisher_function.py -> /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub
+[2.446s] copying /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub/publisher_tf2_static_broadcaster_function.py -> /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub
+[2.447s] copying /home/eecs/tutorial_ws/build/py_pub/build/lib/py_pub/image_publisher_function.py -> /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub
+[2.450s] byte-compiling /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[2.454s] byte-compiling /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub/student_publisher_function.py to student_publisher_function.cpython-38.pyc
+[2.455s] byte-compiling /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub/publisher_tf2_static_broadcaster_function.py to publisher_tf2_static_broadcaster_function.cpython-38.pyc
+[2.457s] byte-compiling /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub/image_publisher_function.py to image_publisher_function.cpython-38.pyc
+[2.458s] running install_data
+[2.460s] running install_egg_info
+[2.464s] removing '/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info' (and everything under it)
+[2.465s] Copying ../../build/py_pub/py_pub.egg-info to /home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages/py_pub-0.0.0-py3.8.egg-info
+[2.468s] running install_scripts
+[2.509s] Installing image_talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub
+[2.510s] Installing student_talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub
+[2.511s] Installing talker script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub
+[2.511s] Installing tf2_static_broadcaster script to /home/eecs/tutorial_ws/install/py_pub/lib/py_pub
+[2.513s] writing list of installed files to '/home/eecs/tutorial_ws/build/py_pub/install.log'
+[2.563s] Invoked command in '/home/eecs/tutorial_ws/src/py_pub' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed

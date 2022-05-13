@@ -1,0 +1,21 @@
+[1.243s] Invoking command in '/home/eecs/tutorial_ws/src/py_cli': PYTHONPATH=/home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_cli build --build-base /home/eecs/tutorial_ws/build/py_cli/build install --prefix /home/eecs/tutorial_ws/install/py_cli --record /home/eecs/tutorial_ws/build/py_cli/install.log --single-version-externally-managed
+[1.619s] running egg_info
+[1.620s] writing ../../build/py_cli/py_cli.egg-info/PKG-INFO
+[1.620s] writing dependency_links to ../../build/py_cli/py_cli.egg-info/dependency_links.txt
+[1.621s] writing entry points to ../../build/py_cli/py_cli.egg-info/entry_points.txt
+[1.621s] writing requirements to ../../build/py_cli/py_cli.egg-info/requires.txt
+[1.621s] writing top-level names to ../../build/py_cli/py_cli.egg-info/top_level.txt
+[1.693s] reading manifest file '../../build/py_cli/py_cli.egg-info/SOURCES.txt'
+[1.695s] writing manifest file '../../build/py_cli/py_cli.egg-info/SOURCES.txt'
+[1.695s] running build
+[1.696s] running build_py
+[1.696s] running install
+[1.697s] running install_lib
+[1.701s] running install_data
+[1.702s] running install_egg_info
+[1.711s] removing '/home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages/py_cli-0.0.0-py3.8.egg-info' (and everything under it)
+[1.711s] Copying ../../build/py_cli/py_cli.egg-info to /home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages/py_cli-0.0.0-py3.8.egg-info
+[1.711s] running install_scripts
+[1.741s] Installing client script to /home/eecs/tutorial_ws/install/py_cli/lib/py_cli
+[1.741s] writing list of installed files to '/home/eecs/tutorial_ws/build/py_cli/install.log'
+[1.794s] Invoked command in '/home/eecs/tutorial_ws/src/py_cli' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_cli build --build-base /home/eecs/tutorial_ws/build/py_cli/build install --prefix /home/eecs/tutorial_ws/install/py_cli --record /home/eecs/tutorial_ws/build/py_cli/install.log --single-version-externally-managed

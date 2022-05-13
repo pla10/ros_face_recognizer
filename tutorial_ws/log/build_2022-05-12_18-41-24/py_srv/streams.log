@@ -1,0 +1,21 @@
+[1.722s] Invoking command in '/home/eecs/tutorial_ws/src/py_srv': PYTHONPATH=/home/eecs/tutorial_ws/install/py_srv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srv build --build-base /home/eecs/tutorial_ws/build/py_srv/build install --prefix /home/eecs/tutorial_ws/install/py_srv --record /home/eecs/tutorial_ws/build/py_srv/install.log --single-version-externally-managed
+[2.265s] running egg_info
+[2.266s] writing ../../build/py_srv/py_srv.egg-info/PKG-INFO
+[2.266s] writing dependency_links to ../../build/py_srv/py_srv.egg-info/dependency_links.txt
+[2.267s] writing entry points to ../../build/py_srv/py_srv.egg-info/entry_points.txt
+[2.267s] writing requirements to ../../build/py_srv/py_srv.egg-info/requires.txt
+[2.267s] writing top-level names to ../../build/py_srv/py_srv.egg-info/top_level.txt
+[2.342s] reading manifest file '../../build/py_srv/py_srv.egg-info/SOURCES.txt'
+[2.343s] writing manifest file '../../build/py_srv/py_srv.egg-info/SOURCES.txt'
+[2.344s] running build
+[2.344s] running build_py
+[2.344s] running install
+[2.346s] running install_lib
+[2.348s] running install_data
+[2.349s] running install_egg_info
+[2.353s] removing '/home/eecs/tutorial_ws/install/py_srv/lib/python3.8/site-packages/py_srv-0.0.0-py3.8.egg-info' (and everything under it)
+[2.353s] Copying ../../build/py_srv/py_srv.egg-info to /home/eecs/tutorial_ws/install/py_srv/lib/python3.8/site-packages/py_srv-0.0.0-py3.8.egg-info
+[2.355s] running install_scripts
+[2.390s] Installing service script to /home/eecs/tutorial_ws/install/py_srv/lib/py_srv
+[2.390s] writing list of installed files to '/home/eecs/tutorial_ws/build/py_srv/install.log'
+[2.460s] Invoked command in '/home/eecs/tutorial_ws/src/py_srv' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/py_srv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srv build --build-base /home/eecs/tutorial_ws/build/py_srv/build install --prefix /home/eecs/tutorial_ws/install/py_srv --record /home/eecs/tutorial_ws/build/py_srv/install.log --single-version-externally-managed

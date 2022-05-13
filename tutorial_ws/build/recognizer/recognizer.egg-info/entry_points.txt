@@ -1,0 +1,3 @@
+[console_scripts]
+recognizer = recognizer.inference:main
+

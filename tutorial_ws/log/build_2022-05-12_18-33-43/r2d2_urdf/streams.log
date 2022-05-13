@@ -1,0 +1,21 @@
+[1.605s] Invoking command in '/home/eecs/tutorial_ws/src/r2d2_urdf': PYTHONPATH=/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_urdf build --build-base /home/eecs/tutorial_ws/build/r2d2_urdf/build install --prefix /home/eecs/tutorial_ws/install/r2d2_urdf --record /home/eecs/tutorial_ws/build/r2d2_urdf/install.log --single-version-externally-managed
+[2.154s] running egg_info
+[2.155s] writing ../../build/r2d2_urdf/r2d2_urdf.egg-info/PKG-INFO
+[2.155s] writing dependency_links to ../../build/r2d2_urdf/r2d2_urdf.egg-info/dependency_links.txt
+[2.156s] writing entry points to ../../build/r2d2_urdf/r2d2_urdf.egg-info/entry_points.txt
+[2.156s] writing requirements to ../../build/r2d2_urdf/r2d2_urdf.egg-info/requires.txt
+[2.156s] writing top-level names to ../../build/r2d2_urdf/r2d2_urdf.egg-info/top_level.txt
+[2.231s] reading manifest file '../../build/r2d2_urdf/r2d2_urdf.egg-info/SOURCES.txt'
+[2.233s] writing manifest file '../../build/r2d2_urdf/r2d2_urdf.egg-info/SOURCES.txt'
+[2.234s] running build
+[2.234s] running build_py
+[2.234s] running install
+[2.236s] running install_lib
+[2.238s] running install_data
+[2.239s] running install_egg_info
+[2.243s] removing '/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages/r2d2_urdf-0.0.0-py3.8.egg-info' (and everything under it)
+[2.243s] Copying ../../build/r2d2_urdf/r2d2_urdf.egg-info to /home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages/r2d2_urdf-0.0.0-py3.8.egg-info
+[2.245s] running install_scripts
+[2.279s] Installing r2d2_state_publisher script to /home/eecs/tutorial_ws/install/r2d2_urdf/lib/r2d2_urdf
+[2.280s] writing list of installed files to '/home/eecs/tutorial_ws/build/r2d2_urdf/install.log'
+[2.333s] Invoked command in '/home/eecs/tutorial_ws/src/r2d2_urdf' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_urdf build --build-base /home/eecs/tutorial_ws/build/r2d2_urdf/build install --prefix /home/eecs/tutorial_ws/install/r2d2_urdf --record /home/eecs/tutorial_ws/build/r2d2_urdf/install.log --single-version-externally-managed

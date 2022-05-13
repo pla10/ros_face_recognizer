@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_cli/py_cli.egg-info/PKG-INFO
+../../build/py_cli/py_cli.egg-info/SOURCES.txt
+../../build/py_cli/py_cli.egg-info/dependency_links.txt
+../../build/py_cli/py_cli.egg-info/entry_points.txt
+../../build/py_cli/py_cli.egg-info/requires.txt
+../../build/py_cli/py_cli.egg-info/top_level.txt
+../../build/py_cli/py_cli.egg-info/zip-safe
+py_cli/__init__.py
+py_cli/client_member_function.py
+resource/py_cli
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

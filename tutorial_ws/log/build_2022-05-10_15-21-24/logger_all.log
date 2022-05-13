@@ -1,0 +1,1095 @@
+[0.161s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.161s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4ed3a02c40>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4ed3a02c40>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4ed3a0e1f0>)
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.191s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eecs/tutorial_ws'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['cmake', 'python']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'cmake'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'python'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['python_setup_py']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'python_setup_py'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/camera_calibration' with type 'ros.ament_python' and name 'camera_calibration'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/depth_image_proc' with type 'ros.ament_cmake' and name 'depth_image_proc'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_pipeline' with type 'ros.ament_cmake' and name 'image_pipeline'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ros'
+[0.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_proc' with type 'ros.ament_cmake' and name 'image_proc'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_rotate' with type 'ros.ament_cmake' and name 'image_rotate'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_view' with type 'ros.ament_cmake' and name 'image_view'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/stereo_image_proc' with type 'ros.ament_cmake' and name 'stereo_image_proc'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/tracetools_image_pipeline' with type 'ros.ament_cmake' and name 'tracetools_image_pipeline'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interfaces) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_interfaces' with type 'ros.ament_cmake' and name 'my_interfaces'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_cli) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_cli' with type 'ros.ament_python' and name 'py_cli'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pub' with type 'ros.ament_python' and name 'py_pub'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srv) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srv' with type 'ros.ament_python' and name 'py_srv'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_sub) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_sub' with type 'ros.ament_python' and name 'py_sub'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/r2d2_urdf) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/r2d2_urdf' with type 'ros.ament_python' and name 'r2d2_urdf'
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.332s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/eecs/tutorial_ws/install
+[0.334s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/foxy
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.427s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/camera_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/camera_calibration', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration', 'symlink_install': False, 'test_result_base': None}
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.429s] DEBUG:colcon.colcon_core.verb:Building package 'depth_image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/depth_image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/depth_image_proc', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/depth_image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'image_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/image_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/image_publisher', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/image_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'image_rotate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/image_rotate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/image_rotate', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/image_rotate', 'symlink_install': False, 'test_result_base': None}
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'image_view' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/image_view', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/image_view', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/image_view', 'symlink_install': False, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'my_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'my_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/my_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/my_interfaces', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/my_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'py_cli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'py_cli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/py_cli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/py_cli', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/py_cli', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'py_srv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'py_srv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/py_srv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/py_srv', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/py_srv', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'r2d2_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'r2d2_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/r2d2_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/r2d2_urdf', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/r2d2_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'tracetools_image_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/tracetools_image_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/tracetools_image_pipeline', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/tracetools_image_pipeline', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/image_proc', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'py_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/py_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/py_pub', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/py_pub', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'py_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'py_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/py_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/py_sub', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/py_sub', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'stereo_image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/stereo_image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/stereo_image_proc', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/stereo_image_proc', 'symlink_install': False, 'test_result_base': None}
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.443s] DEBUG:colcon.colcon_core.verb:Building package 'image_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eecs/tutorial_ws/build/image_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eecs/tutorial_ws/install/image_pipeline', 'merge_install': False, 'path': '/home/eecs/tutorial_ws/src/image_pipeline/image_pipeline', 'symlink_install': False, 'test_result_base': None}
+[0.444s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/tracetools_image_pipeline' with build type 'ament_cmake'
+[0.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/image_pipeline/tracetools_image_pipeline'
+[0.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/my_interfaces' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/my_interfaces'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration' with build type 'ament_python'
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'ament_prefix_path')
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.sh'
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/depth_image_proc' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/image_pipeline/depth_image_proc'
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/tracetools_image_pipeline
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/my_interfaces
+[0.923s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration'
+[0.924s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.924s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/depth_image_proc
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration': PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/eecs/tutorial_ws/build/camera_calibration/build install --prefix /home/eecs/tutorial_ws/install/camera_calibration --record /home/eecs/tutorial_ws/build/camera_calibration/install.log --single-version-externally-managed
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/camera_calibration' for CMake module files
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/camera_calibration' for CMake config files
+[2.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/src/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /home/eecs/tutorial_ws/build/camera_calibration/build install --prefix /home/eecs/tutorial_ws/install/camera_calibration --record /home/eecs/tutorial_ws/build/camera_calibration/install.log --single-version-externally-managed
+[2.700s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/camera_calibration/lib'
+[2.701s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/camera_calibration/bin'
+[2.701s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/camera_calibration/lib/pkgconfig/camera_calibration.pc'
+[2.702s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages'
+[2.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'pythonpath')
+[2.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/hook/pythonpath.ps1'
+[2.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/hook/pythonpath.dsv'
+[2.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/hook/pythonpath.sh'
+[2.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration)
+[2.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/package.ps1'
+[2.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/package.dsv'
+[2.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/package.sh'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/package.bash'
+[2.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/camera_calibration/share/camera_calibration/package.zsh'
+[2.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/camera_calibration/share/colcon-core/packages/camera_calibration)
+[2.718s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/image_publisher' with build type 'ament_cmake'
+[2.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/image_pipeline/image_publisher'
+[2.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_publisher': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_publisher
+[2.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/tracetools_image_pipeline
+[2.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/tracetools_image_pipeline -- -j4 -l4
+[3.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/tracetools_image_pipeline -- -j4 -l4
+[3.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/tracetools_image_pipeline
+[3.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracetools_image_pipeline)
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline' for CMake module files
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline' for CMake config files
+[3.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'cmake_prefix_path')
+[3.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.ps1'
+[3.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.dsv'
+[3.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.sh'
+[3.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/tracetools_image_pipeline
+[3.845s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib'
+[3.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'ld_library_path_lib')
+[3.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.ps1'
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.dsv'
+[3.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.sh'
+[3.849s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/bin'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib/pkgconfig/tracetools_image_pipeline.pc'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib/python3.8/site-packages'
+[3.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.ps1'
+[3.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv'
+[3.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh'
+[3.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.bash'
+[3.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.zsh'
+[3.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/colcon-core/packages/tracetools_image_pipeline)
+[3.931s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracetools_image_pipeline)
+[3.933s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline' for CMake module files
+[3.935s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline' for CMake config files
+[3.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'cmake_prefix_path')
+[3.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.ps1'
+[3.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.dsv'
+[3.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.sh'
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib'
+[3.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'ld_library_path_lib')
+[3.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.ps1'
+[3.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.dsv'
+[3.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.sh'
+[3.945s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/bin'
+[3.945s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib/pkgconfig/tracetools_image_pipeline.pc'
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib/python3.8/site-packages'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.ps1'
+[3.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv'
+[3.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh'
+[3.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.bash'
+[3.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.zsh'
+[3.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/tracetools_image_pipeline/share/colcon-core/packages/tracetools_image_pipeline)
+[3.956s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/image_proc' with build type 'ament_cmake'
+[3.956s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/image_pipeline/image_proc'
+[3.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_proc': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_proc
+[4.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/my_interfaces
+[4.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/my_interfaces -- -j4 -l4
+[8.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/depth_image_proc
+[8.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/depth_image_proc -- -j4 -l4
+[9.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_publisher
+[9.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_publisher': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_publisher -- -j4 -l4
+[11.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_proc' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_proc
+[11.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_proc': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_proc -- -j4 -l4
+[13.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/my_interfaces -- -j4 -l4
+[14.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/my_interfaces': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/my_interfaces
+[15.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interfaces)
+[15.193s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces' for CMake module files
+[15.195s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces' for CMake config files
+[15.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/my_interfaces
+[15.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'cmake_prefix_path')
+[15.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.ps1'
+[15.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.dsv'
+[15.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.sh'
+[15.201s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces/lib'
+[15.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'ld_library_path_lib')
+[15.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.ps1'
+[15.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.dsv'
+[15.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.sh'
+[15.213s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces/bin'
+[15.214s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces/lib/pkgconfig/my_interfaces.pc'
+[15.214s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages'
+[15.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'pythonpath')
+[15.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/pythonpath.ps1'
+[15.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/pythonpath.dsv'
+[15.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/pythonpath.sh'
+[15.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.ps1'
+[15.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.dsv'
+[15.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.sh'
+[15.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.bash'
+[15.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.zsh'
+[15.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/my_interfaces/share/colcon-core/packages/my_interfaces)
+[16.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interfaces)
+[16.292s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces' for CMake module files
+[16.293s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces' for CMake config files
+[16.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'cmake_prefix_path')
+[16.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.ps1'
+[16.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.dsv'
+[16.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/cmake_prefix_path.sh'
+[16.299s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces/lib'
+[16.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'ld_library_path_lib')
+[16.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.ps1'
+[16.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.dsv'
+[16.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/ld_library_path_lib.sh'
+[16.311s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces/bin'
+[16.312s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces/lib/pkgconfig/my_interfaces.pc'
+[16.312s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages'
+[16.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interfaces', 'pythonpath')
+[16.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/pythonpath.ps1'
+[16.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/pythonpath.dsv'
+[16.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/hook/pythonpath.sh'
+[16.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.ps1'
+[16.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.dsv'
+[16.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.sh'
+[16.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.bash'
+[16.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/my_interfaces/share/my_interfaces/package.zsh'
+[16.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/my_interfaces/share/colcon-core/packages/my_interfaces)
+[16.345s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/image_rotate' with build type 'ament_cmake'
+[16.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/image_pipeline/image_rotate'
+[16.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_rotate': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_rotate
+[28.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_rotate
+[28.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_rotate': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_rotate -- -j4 -l4
+[37.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_publisher -- -j4 -l4
+[38.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_publisher': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_publisher
+[38.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[38.471s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher' for CMake module files
+[38.477s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher' for CMake config files
+[38.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'cmake_prefix_path')
+[38.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.ps1'
+[38.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_publisher
+[38.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.dsv'
+[38.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.sh'
+[38.487s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher/lib'
+[38.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'ld_library_path_lib')
+[38.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.ps1'
+[38.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.dsv'
+[38.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.sh'
+[38.491s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher/bin'
+[38.491s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[38.496s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher/lib/python3.8/site-packages'
+[38.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.ps1'
+[38.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.dsv'
+[38.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.sh'
+[38.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.bash'
+[38.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.zsh'
+[38.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_publisher/share/colcon-core/packages/image_publisher)
+[39.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[39.020s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher' for CMake module files
+[39.021s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher' for CMake config files
+[39.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'cmake_prefix_path')
+[39.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.ps1'
+[39.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.dsv'
+[39.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.sh'
+[39.026s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher/lib'
+[39.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'ld_library_path_lib')
+[39.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.ps1'
+[39.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.dsv'
+[39.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.sh'
+[39.037s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher/bin'
+[39.038s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[39.044s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_publisher/lib/python3.8/site-packages'
+[39.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.ps1'
+[39.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.dsv'
+[39.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.sh'
+[39.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.bash'
+[39.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_publisher/share/image_publisher/package.zsh'
+[39.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_publisher/share/colcon-core/packages/image_publisher)
+[39.057s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/image_view' with build type 'ament_cmake'
+[39.068s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/image_pipeline/image_view'
+[39.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[39.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_view': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_view -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_view
+[51.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_view -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_view
+[51.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_view': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_view -- -j4 -l4
+[56.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_rotate -- -j4 -l4
+[56.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_rotate': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_rotate
+[56.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_rotate)
+[56.465s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate' for CMake module files
+[56.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_rotate
+[56.467s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate' for CMake config files
+[56.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_rotate', 'cmake_prefix_path')
+[56.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.ps1'
+[56.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.dsv'
+[56.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.sh'
+[56.472s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate/lib'
+[56.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_rotate', 'ld_library_path_lib')
+[56.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.ps1'
+[56.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.dsv'
+[56.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.sh'
+[56.478s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate/bin'
+[56.478s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate/lib/pkgconfig/image_rotate.pc'
+[56.479s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate/lib/python3.8/site-packages'
+[56.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.ps1'
+[56.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.dsv'
+[56.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.sh'
+[56.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.bash'
+[56.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.zsh'
+[56.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_rotate/share/colcon-core/packages/image_rotate)
+[56.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_rotate)
+[56.895s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate' for CMake module files
+[56.896s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate' for CMake config files
+[56.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_rotate', 'cmake_prefix_path')
+[56.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.ps1'
+[56.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.dsv'
+[56.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.sh'
+[56.914s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate/lib'
+[56.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_rotate', 'ld_library_path_lib')
+[56.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.ps1'
+[56.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.dsv'
+[56.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.sh'
+[56.918s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate/bin'
+[56.918s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate/lib/pkgconfig/image_rotate.pc'
+[56.918s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_rotate/lib/python3.8/site-packages'
+[56.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.ps1'
+[56.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.dsv'
+[56.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.sh'
+[56.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.bash'
+[56.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_rotate/share/image_rotate/package.zsh'
+[56.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_rotate/share/colcon-core/packages/image_rotate)
+[56.927s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eecs/tutorial_ws/src/py_cli' with build type 'ament_python'
+[56.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_cli', 'ament_prefix_path')
+[56.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/hook/ament_prefix_path.ps1'
+[56.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/hook/ament_prefix_path.dsv'
+[56.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/hook/ament_prefix_path.sh'
+[56.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[56.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eecs/tutorial_ws/src/py_cli'
+[57.792s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[57.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[59.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/src/py_cli': PYTHONPATH=/home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_cli build --build-base /home/eecs/tutorial_ws/build/py_cli/build install --prefix /home/eecs/tutorial_ws/install/py_cli --record /home/eecs/tutorial_ws/build/py_cli/install.log --single-version-externally-managed
+[60.153s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_cli' for CMake module files
+[60.155s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_cli' for CMake config files
+[60.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/src/py_cli' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_cli build --build-base /home/eecs/tutorial_ws/build/py_cli/build install --prefix /home/eecs/tutorial_ws/install/py_cli --record /home/eecs/tutorial_ws/build/py_cli/install.log --single-version-externally-managed
+[60.157s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_cli/lib'
+[60.157s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_cli/bin'
+[60.157s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_cli/lib/pkgconfig/py_cli.pc'
+[60.158s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_cli/lib/python3.8/site-packages'
+[60.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_cli', 'pythonpath')
+[60.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/hook/pythonpath.ps1'
+[60.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/hook/pythonpath.dsv'
+[60.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/hook/pythonpath.sh'
+[60.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_cli)
+[60.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/package.ps1'
+[60.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/package.dsv'
+[60.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/package.sh'
+[60.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/package.bash'
+[60.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_cli/share/py_cli/package.zsh'
+[60.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/py_cli/share/colcon-core/packages/py_cli)
+[60.170s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eecs/tutorial_ws/src/py_srv' with build type 'ament_python'
+[60.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srv', 'ament_prefix_path')
+[60.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/hook/ament_prefix_path.ps1'
+[60.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/hook/ament_prefix_path.dsv'
+[60.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/hook/ament_prefix_path.sh'
+[60.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[60.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[60.828s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eecs/tutorial_ws/src/py_srv'
+[60.831s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[60.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[62.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/src/py_srv': PYTHONPATH=/home/eecs/tutorial_ws/install/py_srv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srv build --build-base /home/eecs/tutorial_ws/build/py_srv/build install --prefix /home/eecs/tutorial_ws/install/py_srv --record /home/eecs/tutorial_ws/build/py_srv/install.log --single-version-externally-managed
+[63.053s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_srv' for CMake module files
+[63.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/src/py_srv' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/py_srv/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srv build --build-base /home/eecs/tutorial_ws/build/py_srv/build install --prefix /home/eecs/tutorial_ws/install/py_srv --record /home/eecs/tutorial_ws/build/py_srv/install.log --single-version-externally-managed
+[63.055s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_srv' for CMake config files
+[63.056s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_srv/lib'
+[63.056s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_srv/bin'
+[63.057s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_srv/lib/pkgconfig/py_srv.pc'
+[63.057s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_srv/lib/python3.8/site-packages'
+[63.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srv', 'pythonpath')
+[63.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/hook/pythonpath.ps1'
+[63.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/hook/pythonpath.dsv'
+[63.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/hook/pythonpath.sh'
+[63.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srv)
+[63.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/package.ps1'
+[63.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/package.dsv'
+[63.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/package.sh'
+[63.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/package.bash'
+[63.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_srv/share/py_srv/package.zsh'
+[63.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/py_srv/share/colcon-core/packages/py_srv)
+[63.081s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eecs/tutorial_ws/src/r2d2_urdf' with build type 'ament_python'
+[63.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('r2d2_urdf', 'ament_prefix_path')
+[63.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/hook/ament_prefix_path.ps1'
+[63.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/hook/ament_prefix_path.dsv'
+[63.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/hook/ament_prefix_path.sh'
+[63.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[63.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[63.913s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eecs/tutorial_ws/src/r2d2_urdf'
+[63.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[63.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[65.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/src/r2d2_urdf': PYTHONPATH=/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_urdf build --build-base /home/eecs/tutorial_ws/build/r2d2_urdf/build install --prefix /home/eecs/tutorial_ws/install/r2d2_urdf --record /home/eecs/tutorial_ws/build/r2d2_urdf/install.log --single-version-externally-managed
+[66.230s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/r2d2_urdf' for CMake module files
+[66.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/src/r2d2_urdf' returned '0': PYTHONPATH=/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/r2d2_urdf build --build-base /home/eecs/tutorial_ws/build/r2d2_urdf/build install --prefix /home/eecs/tutorial_ws/install/r2d2_urdf --record /home/eecs/tutorial_ws/build/r2d2_urdf/install.log --single-version-externally-managed
+[66.232s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/r2d2_urdf' for CMake config files
+[66.234s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/r2d2_urdf/lib'
+[66.234s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/r2d2_urdf/bin'
+[66.234s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/r2d2_urdf/lib/pkgconfig/r2d2_urdf.pc'
+[66.235s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/r2d2_urdf/lib/python3.8/site-packages'
+[66.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('r2d2_urdf', 'pythonpath')
+[66.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/hook/pythonpath.ps1'
+[66.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/hook/pythonpath.dsv'
+[66.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/hook/pythonpath.sh'
+[66.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(r2d2_urdf)
+[66.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/package.ps1'
+[66.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/package.dsv'
+[66.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/package.sh'
+[66.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/package.bash'
+[66.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/r2d2_urdf/share/r2d2_urdf/package.zsh'
+[66.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/r2d2_urdf/share/colcon-core/packages/r2d2_urdf)
+[66.258s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eecs/tutorial_ws/src/py_pub' with build type 'ament_python'
+[66.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pub', 'ament_prefix_path')
+[66.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/hook/ament_prefix_path.ps1'
+[66.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/hook/ament_prefix_path.dsv'
+[66.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/hook/ament_prefix_path.sh'
+[66.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[66.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[67.014s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eecs/tutorial_ws/src/py_pub'
+[67.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[67.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[68.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/src/py_pub': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed
+[68.824s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_pub' for CMake module files
+[68.826s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_pub' for CMake config files
+[68.827s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_pub/lib'
+[68.827s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_pub/bin'
+[68.828s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_pub/lib/pkgconfig/py_pub.pc'
+[68.828s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages'
+[68.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pub', 'pythonpath')
+[68.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/hook/pythonpath.ps1'
+[68.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/hook/pythonpath.dsv'
+[68.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/src/py_pub' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_pub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/eecs/tutorial_ws/build/py_pub/build install --prefix /home/eecs/tutorial_ws/install/py_pub --record /home/eecs/tutorial_ws/build/py_pub/install.log --single-version-externally-managed
+[68.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/hook/pythonpath.sh'
+[68.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pub)
+[68.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/package.ps1'
+[68.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/package.dsv'
+[68.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/package.sh'
+[68.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/package.bash'
+[68.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_pub/share/py_pub/package.zsh'
+[68.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/py_pub/share/colcon-core/packages/py_pub)
+[68.842s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/eecs/tutorial_ws/src/py_sub' with build type 'ament_python'
+[68.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_sub', 'ament_prefix_path')
+[68.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/hook/ament_prefix_path.ps1'
+[68.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/hook/ament_prefix_path.dsv'
+[68.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/hook/ament_prefix_path.sh'
+[68.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[68.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[69.464s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/eecs/tutorial_ws/src/py_sub'
+[69.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[69.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[70.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/src/py_sub': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/eecs/tutorial_ws/build/py_sub/build install --prefix /home/eecs/tutorial_ws/install/py_sub --record /home/eecs/tutorial_ws/build/py_sub/install.log --single-version-externally-managed
+[71.157s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_sub' for CMake module files
+[71.158s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_sub' for CMake config files
+[71.159s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_sub/lib'
+[71.159s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_sub/bin'
+[71.159s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_sub/lib/pkgconfig/py_sub.pc'
+[71.160s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages'
+[71.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_sub', 'pythonpath')
+[71.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/hook/pythonpath.ps1'
+[71.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/hook/pythonpath.dsv'
+[71.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/src/py_sub' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/my_interfaces LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/my_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/py_sub/lib/python3.8/site-packages:/home/eecs/tutorial_ws/install/my_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_sub build --build-base /home/eecs/tutorial_ws/build/py_sub/build install --prefix /home/eecs/tutorial_ws/install/py_sub --record /home/eecs/tutorial_ws/build/py_sub/install.log --single-version-externally-managed
+[71.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/hook/pythonpath.sh'
+[71.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_sub)
+[71.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/package.ps1'
+[71.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/package.dsv'
+[71.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/package.sh'
+[71.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/package.bash'
+[71.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/py_sub/share/py_sub/package.zsh'
+[71.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/py_sub/share/colcon-core/packages/py_sub)
+[78.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_proc' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_proc -- -j4 -l4
+[78.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_proc': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_proc
+[78.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_proc)
+[78.413s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc' for CMake module files
+[78.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_proc' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_proc
+[78.415s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc' for CMake config files
+[78.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_proc', 'cmake_prefix_path')
+[78.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/cmake_prefix_path.ps1'
+[78.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/cmake_prefix_path.dsv'
+[78.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/cmake_prefix_path.sh'
+[78.420s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc/lib'
+[78.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_proc', 'ld_library_path_lib')
+[78.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/ld_library_path_lib.ps1'
+[78.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/ld_library_path_lib.dsv'
+[78.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/ld_library_path_lib.sh'
+[78.424s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc/bin'
+[78.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_proc', 'path')
+[78.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/path.ps1'
+[78.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/path.dsv'
+[78.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/path.sh'
+[78.428s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc/lib/pkgconfig/image_proc.pc'
+[78.428s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc/lib/python3.8/site-packages'
+[78.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.ps1'
+[78.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.dsv'
+[78.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.sh'
+[78.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.bash'
+[78.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.zsh'
+[78.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_proc/share/colcon-core/packages/image_proc)
+[78.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_proc)
+[78.516s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc' for CMake module files
+[78.517s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc' for CMake config files
+[78.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_proc', 'cmake_prefix_path')
+[78.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/cmake_prefix_path.ps1'
+[78.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/cmake_prefix_path.dsv'
+[78.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/cmake_prefix_path.sh'
+[78.522s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc/lib'
+[78.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_proc', 'ld_library_path_lib')
+[78.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/ld_library_path_lib.ps1'
+[78.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/ld_library_path_lib.dsv'
+[78.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/ld_library_path_lib.sh'
+[78.526s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc/bin'
+[78.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_proc', 'path')
+[78.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/path.ps1'
+[78.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/path.dsv'
+[78.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/hook/path.sh'
+[78.530s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc/lib/pkgconfig/image_proc.pc'
+[78.530s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_proc/lib/python3.8/site-packages'
+[78.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.ps1'
+[78.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.dsv'
+[78.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.sh'
+[78.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.bash'
+[78.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_proc/share/image_proc/package.zsh'
+[78.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_proc/share/colcon-core/packages/image_proc)
+[78.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/stereo_image_proc' with build type 'ament_cmake'
+[78.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/image_pipeline/stereo_image_proc'
+[78.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[78.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[78.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/stereo_image_proc -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/stereo_image_proc
+[83.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/stereo_image_proc -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/stereo_image_proc
+[83.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} /usr/bin/cmake --build /home/eecs/tutorial_ws/build/stereo_image_proc -- -j4 -l4
+[93.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/depth_image_proc -- -j4 -l4
+[93.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/depth_image_proc
+[93.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_image_proc)
+[93.994s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc' for CMake module files
+[93.995s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc' for CMake config files
+[93.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/depth_image_proc
+[93.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_image_proc', 'cmake_prefix_path')
+[93.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/cmake_prefix_path.ps1'
+[93.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/cmake_prefix_path.dsv'
+[94.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/cmake_prefix_path.sh'
+[94.001s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc/lib'
+[94.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_image_proc', 'ld_library_path_lib')
+[94.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/ld_library_path_lib.ps1'
+[94.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/ld_library_path_lib.dsv'
+[94.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/ld_library_path_lib.sh'
+[94.005s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc/bin'
+[94.005s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc/lib/pkgconfig/depth_image_proc.pc'
+[94.005s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc/lib/python3.8/site-packages'
+[94.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.ps1'
+[94.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.dsv'
+[94.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.sh'
+[94.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.bash'
+[94.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.zsh'
+[94.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/depth_image_proc/share/colcon-core/packages/depth_image_proc)
+[94.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depth_image_proc)
+[94.095s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc' for CMake module files
+[94.096s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc' for CMake config files
+[94.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_image_proc', 'cmake_prefix_path')
+[94.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/cmake_prefix_path.ps1'
+[94.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/cmake_prefix_path.dsv'
+[94.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/cmake_prefix_path.sh'
+[94.101s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc/lib'
+[94.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('depth_image_proc', 'ld_library_path_lib')
+[94.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/ld_library_path_lib.ps1'
+[94.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/ld_library_path_lib.dsv'
+[94.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/hook/ld_library_path_lib.sh'
+[94.105s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc/bin'
+[94.105s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc/lib/pkgconfig/depth_image_proc.pc'
+[94.106s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/depth_image_proc/lib/python3.8/site-packages'
+[94.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.ps1'
+[94.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.dsv'
+[94.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.sh'
+[94.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.bash'
+[94.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/depth_image_proc/share/depth_image_proc/package.zsh'
+[94.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/depth_image_proc/share/colcon-core/packages/depth_image_proc)
+[127.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_view -- -j4 -l4
+[127.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_view': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_view
+[127.159s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_view)
+[127.161s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view' for CMake module files
+[127.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_view
+[127.163s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view' for CMake config files
+[127.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_view', 'cmake_prefix_path')
+[127.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/cmake_prefix_path.ps1'
+[127.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/cmake_prefix_path.dsv'
+[127.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/cmake_prefix_path.sh'
+[127.168s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view/lib'
+[127.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_view', 'ld_library_path_lib')
+[127.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/ld_library_path_lib.ps1'
+[127.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/ld_library_path_lib.dsv'
+[127.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/ld_library_path_lib.sh'
+[127.171s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view/bin'
+[127.171s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view/lib/pkgconfig/image_view.pc'
+[127.171s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view/lib/python3.8/site-packages'
+[127.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.ps1'
+[127.174s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.dsv'
+[127.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.sh'
+[127.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.bash'
+[127.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.zsh'
+[127.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_view/share/colcon-core/packages/image_view)
+[127.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_view)
+[127.243s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view' for CMake module files
+[127.245s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view' for CMake config files
+[127.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_view', 'cmake_prefix_path')
+[127.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/cmake_prefix_path.ps1'
+[127.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/cmake_prefix_path.dsv'
+[127.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/cmake_prefix_path.sh'
+[127.249s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view/lib'
+[127.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_view', 'ld_library_path_lib')
+[127.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/ld_library_path_lib.ps1'
+[127.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/ld_library_path_lib.dsv'
+[127.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_view/share/image_view/hook/ld_library_path_lib.sh'
+[127.253s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view/bin'
+[127.253s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view/lib/pkgconfig/image_view.pc'
+[127.254s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_view/lib/python3.8/site-packages'
+[127.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.ps1'
+[127.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.dsv'
+[127.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.sh'
+[127.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.bash'
+[127.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_view/share/image_view/package.zsh'
+[127.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_view/share/colcon-core/packages/image_view)
+[133.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} /usr/bin/cmake --build /home/eecs/tutorial_ws/build/stereo_image_proc -- -j4 -l4
+[133.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} /usr/bin/cmake --install /home/eecs/tutorial_ws/build/stereo_image_proc
+[133.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stereo_image_proc)
+[133.093s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc' for CMake module files
+[133.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} /usr/bin/cmake --install /home/eecs/tutorial_ws/build/stereo_image_proc
+[133.094s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc' for CMake config files
+[133.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo_image_proc', 'cmake_prefix_path')
+[133.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/cmake_prefix_path.ps1'
+[133.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/cmake_prefix_path.dsv'
+[133.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/cmake_prefix_path.sh'
+[133.097s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc/lib'
+[133.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo_image_proc', 'ld_library_path_lib')
+[133.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/ld_library_path_lib.ps1'
+[133.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/ld_library_path_lib.dsv'
+[133.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/ld_library_path_lib.sh'
+[133.099s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc/bin'
+[133.099s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc/lib/pkgconfig/stereo_image_proc.pc'
+[133.100s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc/lib/python3.8/site-packages'
+[133.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.ps1'
+[133.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.dsv'
+[133.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.sh'
+[133.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.bash'
+[133.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.zsh'
+[133.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/stereo_image_proc/share/colcon-core/packages/stereo_image_proc)
+[133.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stereo_image_proc)
+[133.143s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc' for CMake module files
+[133.144s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc' for CMake config files
+[133.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo_image_proc', 'cmake_prefix_path')
+[133.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/cmake_prefix_path.ps1'
+[133.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/cmake_prefix_path.dsv'
+[133.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/cmake_prefix_path.sh'
+[133.147s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc/lib'
+[133.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo_image_proc', 'ld_library_path_lib')
+[133.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/ld_library_path_lib.ps1'
+[133.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/ld_library_path_lib.dsv'
+[133.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/hook/ld_library_path_lib.sh'
+[133.149s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc/bin'
+[133.149s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc/lib/pkgconfig/stereo_image_proc.pc'
+[133.150s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/stereo_image_proc/lib/python3.8/site-packages'
+[133.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.ps1'
+[133.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.dsv'
+[133.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.sh'
+[133.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.bash'
+[133.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/stereo_image_proc/share/stereo_image_proc/package.zsh'
+[133.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/stereo_image_proc/share/colcon-core/packages/stereo_image_proc)
+[133.154s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eecs/tutorial_ws/src/image_pipeline/image_pipeline' with build type 'ament_cmake'
+[133.154s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eecs/tutorial_ws/src/image_pipeline/image_pipeline'
+[133.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[133.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[133.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_pipeline': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/camera_calibration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc/lib:/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:/home/eecs/tutorial_ws/install/image_view/lib:/home/eecs/tutorial_ws/install/image_rotate/lib:/home/eecs/tutorial_ws/install/image_publisher/lib:/home/eecs/tutorial_ws/install/depth_image_proc/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_pipeline -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_pipeline
+[134.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_pipeline' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/camera_calibration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc/lib:/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:/home/eecs/tutorial_ws/install/image_view/lib:/home/eecs/tutorial_ws/install/image_rotate/lib:/home/eecs/tutorial_ws/install/image_publisher/lib:/home/eecs/tutorial_ws/install/depth_image_proc/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/eecs/tutorial_ws/src/image_pipeline/image_pipeline -DCMAKE_INSTALL_PREFIX=/home/eecs/tutorial_ws/install/image_pipeline
+[134.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_pipeline': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/camera_calibration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc/lib:/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:/home/eecs/tutorial_ws/install/image_view/lib:/home/eecs/tutorial_ws/install/image_rotate/lib:/home/eecs/tutorial_ws/install/image_publisher/lib:/home/eecs/tutorial_ws/install/depth_image_proc/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_pipeline -- -j4 -l4
+[134.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_pipeline' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/camera_calibration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc/lib:/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:/home/eecs/tutorial_ws/install/image_view/lib:/home/eecs/tutorial_ws/install/image_rotate/lib:/home/eecs/tutorial_ws/install/image_publisher/lib:/home/eecs/tutorial_ws/install/depth_image_proc/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eecs/tutorial_ws/build/image_pipeline -- -j4 -l4
+[134.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eecs/tutorial_ws/build/image_pipeline': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/camera_calibration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc/lib:/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:/home/eecs/tutorial_ws/install/image_view/lib:/home/eecs/tutorial_ws/install/image_rotate/lib:/home/eecs/tutorial_ws/install/image_publisher/lib:/home/eecs/tutorial_ws/install/depth_image_proc/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_pipeline
+[134.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_pipeline)
+[134.357s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline' for CMake module files
+[134.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eecs/tutorial_ws/build/image_pipeline' returned '0': AMENT_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/camera_calibration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc:/home/eecs/tutorial_ws/install/image_proc:/home/eecs/tutorial_ws/install/tracetools_image_pipeline:/home/eecs/tutorial_ws/install/image_view:/home/eecs/tutorial_ws/install/image_rotate:/home/eecs/tutorial_ws/install/image_publisher:/home/eecs/tutorial_ws/install/depth_image_proc:/home/eecs/tutorial_ws/install/py_sub:/home/eecs/tutorial_ws/install/py_pub:/opt/ros/foxy LD_LIBRARY_PATH=/home/eecs/tutorial_ws/install/stereo_image_proc/lib:/home/eecs/tutorial_ws/install/image_proc/lib:/home/eecs/tutorial_ws/install/tracetools_image_pipeline/lib:/home/eecs/tutorial_ws/install/image_view/lib:/home/eecs/tutorial_ws/install/image_rotate/lib:/home/eecs/tutorial_ws/install/image_publisher/lib:/home/eecs/tutorial_ws/install/depth_image_proc/lib:${LD_LIBRARY_PATH} PATH=/home/eecs/tutorial_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/eecs/tutorial_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eecs/tutorial_ws/build/image_pipeline
+[134.358s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline' for CMake config files
+[134.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_pipeline', 'cmake_prefix_path')
+[134.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/hook/cmake_prefix_path.ps1'
+[134.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/hook/cmake_prefix_path.dsv'
+[134.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/hook/cmake_prefix_path.sh'
+[134.361s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline/bin'
+[134.361s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline/lib/pkgconfig/image_pipeline.pc'
+[134.361s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline/lib/python3.8/site-packages'
+[134.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.ps1'
+[134.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.dsv'
+[134.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.sh'
+[134.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.bash'
+[134.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.zsh'
+[134.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_pipeline/share/colcon-core/packages/image_pipeline)
+[134.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_pipeline)
+[134.392s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline' for CMake module files
+[134.393s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline' for CMake config files
+[134.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_pipeline', 'cmake_prefix_path')
+[134.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/hook/cmake_prefix_path.ps1'
+[134.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/hook/cmake_prefix_path.dsv'
+[134.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/hook/cmake_prefix_path.sh'
+[134.396s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline/bin'
+[134.396s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline/lib/pkgconfig/image_pipeline.pc'
+[134.396s] Level 1:colcon.colcon_core.environment:checking '/home/eecs/tutorial_ws/install/image_pipeline/lib/python3.8/site-packages'
+[134.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.ps1'
+[134.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.dsv'
+[134.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.sh'
+[134.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.bash'
+[134.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/eecs/tutorial_ws/install/image_pipeline/share/image_pipeline/package.zsh'
+[134.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eecs/tutorial_ws/install/image_pipeline/share/colcon-core/packages/image_pipeline)
+[134.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[134.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[134.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[134.401s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[134.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[134.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[134.410s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[134.431s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[134.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eecs/tutorial_ws/install/local_setup.ps1'
+[134.434s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eecs/tutorial_ws/install/_local_setup_util_ps1.py'
+[134.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eecs/tutorial_ws/install/setup.ps1'
+[134.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eecs/tutorial_ws/install/local_setup.sh'
+[134.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eecs/tutorial_ws/install/_local_setup_util_sh.py'
+[134.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eecs/tutorial_ws/install/setup.sh'
+[134.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eecs/tutorial_ws/install/local_setup.bash'
+[134.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eecs/tutorial_ws/install/setup.bash'
+[134.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eecs/tutorial_ws/install/local_setup.zsh'
+[134.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eecs/tutorial_ws/install/setup.zsh'
